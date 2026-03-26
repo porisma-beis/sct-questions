@@ -1,0 +1,28 @@
+id: seller-to-data-provider
+origin: "Seller"
+destination: "Data Provider"
+questions:
+  - id: seller-to-data-provider-how-unique-is-the-data-is-it-being-bid-on-by-many-buyers-pushing-up-the-auction-price
+    text: "How unique is the data? Is it being bid on by many buyers pushing up the auction price?"
+    tags: ["cost","data"]
+  - id: seller-to-data-provider-what-are-the-sources-of-the-data-you-are-providing
+    text: "What are the sources of the data you are providing?"
+    tags: ["data"]
+  - id: seller-to-data-provider-is-this-data-collected-in-a-gdpr-compliant-way
+    text: "Is this data collected in a GDPR compliant way?"
+    tags: ["gdpr","data"]
+  - id: seller-to-data-provider-how-is-the-advertiser-converting-data-to-online-data
+    text: "How is the advertiser converting data to online data?"
+    tags: ["data"]
+  - id: seller-to-data-provider-how-can-you-protect-against-audience-profiling-by-third-parties
+    text: "How can you protect against audience profiling by third-parties?"
+    tags: ["data"]
+  - id: seller-to-data-provider-how-do-you-prevent-malware
+    text: "How do you prevent malware?"
+    tags: ["fraud","data"]
+  - id: seller-to-data-provider-can-i-block-specific-ad-technology
+    text: "Can I block specific ad technology?"
+    tags: ["data"]
+  - id: seller-to-data-provider-how-is-the-advertiser-converting-offline-data-to-online-data
+    text: "How is the advertiser converting offline data to online data?"
+    tags: ["data"]

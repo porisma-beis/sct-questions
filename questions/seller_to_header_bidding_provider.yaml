@@ -1,0 +1,40 @@
+id: seller-to-header-bidding-provider
+origin: "Seller"
+destination: "Header Bidding Provider"
+questions:
+  - id: seller-to-header-bidding-provider-what-personal-data-do-you-collect
+    text: "What personal data do you collect?"
+    tags: ["data"]
+  - id: seller-to-header-bidding-provider-which-id-providers-do-you-support
+    text: "Which ID providers do you support?"
+    tags: ["data"]
+  - id: seller-to-header-bidding-provider-do-you-use-the-data-collected-for-any-other-purposes-than-optimising-our-performance
+    text: "Do you use the data collected for any other purposes than optimising our performance?"
+    tags: ["data"]
+  - id: seller-to-header-bidding-provider-how-is-the-data-shared-and-to-whom
+    text: "How is the data shared and to whom?"
+    tags: ["data"]
+  - id: seller-to-header-bidding-provider-do-you-enrich-or-do-any-other-changes-to-signals-when-passed-forward
+    text: "Do you enrich or do any other changes to signals when passed forward?"
+    tags: ["data"]
+  - id: seller-to-header-bidding-provider-do-we-need-to-ask-consent-for-your-technology-if-yes-why-and-on-which-legal-bases
+    text: "Do we need to ask consent for your technology? If yes, why and on which legal bases?"
+    tags: ["consent","data"]
+  - id: seller-to-header-bidding-provider-what-is-your-business-model-and-fees
+    text: "What is your business model and fees?"
+    tags: ["cost"]
+  - id: seller-to-header-bidding-provider-do-you-charge-any-other-parties-than-us
+    text: "Do you charge any other parties than us?"
+    tags: ["cost"]
+  - id: seller-to-header-bidding-provider-does-the-price-include-server-side-functionality-or-is-there-a-separate-fee-for-that
+    text: "Does the price include server-side functionality or is there a separate fee for that?"
+    tags: ["cost"]
+  - id: seller-to-header-bidding-provider-do-you-act-as-a-reseller
+    text: "Do you act as a reseller?"
+    tags: ["inventory","cost"]
+  - id: seller-to-header-bidding-provider-what-kind-of-revenue-transparency-reporting-do-you-provide
+    text: "What kind of revenue transparency reporting do you provide?"
+    tags: ["cost","measurement"]
+  - id: seller-to-header-bidding-provider-do-you-provide-a-log-level-reporting
+    text: "Do you provide  a log level reporting"
+    tags: ["measurement","cost"]

@@ -1,0 +1,16 @@
+id: data-provider-to-dmp
+origin: "Data Provider"
+destination: "DMP"
+questions:
+  - id: data-provider-to-dmp-how-will-the-data-be-used
+    text: "How will the data be used?"
+    tags: ["data"]
+  - id: data-provider-to-dmp-will-the-data-be-matched-to-other-data-and-if-so-how
+    text: "Will the data be matched to other data and if so, how?"
+    tags: ["data"]
+  - id: data-provider-to-dmp-will-the-data-be-shared-with-additional-parties
+    text: "Will the data be shared with additional parties?"
+    tags: ["data"]
+  - id: data-provider-to-dmp-how-long-will-the-data-be-retained
+    text: "How long will the data be retained?"
+    tags: ["data"]

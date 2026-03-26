@@ -1,0 +1,25 @@
+id: seller-to-curator
+origin: "Seller"
+destination: "Curator"
+questions:
+  - id: seller-to-curator-what-audience-data-do-you-use-where-and-how-it-is-sourced
+    text: "What audience data do you use, where and how it is sourced?"
+    tags: ["data"]
+  - id: seller-to-curator-how-do-you-make-sure-the-data-you-use-is-collected-with-needed-consent
+    text: "How do you make sure the data you use is collected with needed consent?"
+    tags: ["consent","data"]
+  - id: seller-to-curator-can-you-use-my-first-party-data-to-curate
+    text: "Can you use my first party data to curate?"
+    tags: ["data"]
+  - id: seller-to-curator-what-is-your-business-model-and-fees-for-us
+    text: "What is your business model and fees for us?"
+    tags: ["cost"]
+  - id: seller-to-curator-what-is-your-fee-for-buyers
+    text: "What is your fee for buyers?"
+    tags: ["cost"]
+  - id: seller-to-curator-do-you-report-both-gross-and-net-sales
+    text: "Do you report both gross and net sales?"
+    tags: ["cost"]
+  - id: seller-to-curator-how-is-my-inventory-surfaced-to-your-buyers
+    text: "How is my inventory surfaced to your buyers?"
+    tags: ["inventory"]

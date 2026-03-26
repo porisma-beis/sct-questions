@@ -1,0 +1,33 @@
+name: Validate Content
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate YAML structure and dist freshness
+        run: npm run validate
+
+      - name: Rebuild compiled JSON
+        run: npm run build
+
+      - name: Ensure compiled JSON is committed
+        run: git diff --exit-code -- dist/questions.json

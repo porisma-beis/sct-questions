@@ -1,0 +1,10 @@
+id: buyer-to-measurement-provider
+origin: "Buyer"
+destination: "Measurement Provider"
+questions:
+  - id: buyer-to-measurement-provider-can-you-identify-fraudulent-audiences-bots-to-specific-supply-sources
+    text: "Can you identify Fraudulent Audiences (Bots) to specific supply sources?"
+    tags: ["fraud","data"]
+  - id: buyer-to-measurement-provider-do-you-provide-any-data-level-spo-diagnostics-e-g-which-data-segments-contribute-most-to-objectives
+    text: "Do you provide any data‑level SPO diagnostics (e.g. which data segments contribute most to objectives)?"
+    tags: ["spo","measurement","data"]

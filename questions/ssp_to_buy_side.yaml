@@ -1,0 +1,31 @@
+id: ssp-to-buy-side
+origin: "SSP"
+destination: "Buy-Side"
+questions:
+  - id: ssp-to-buy-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: ssp-to-buy-side-has-the-sharing-of-this-data-been-disclosed-to-the-end-user
+    text: "Has the sharing of this data been disclosed to the end-user?"
+    tags: ["data"]
+  - id: ssp-to-buy-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
+  - id: ssp-to-buy-side-how-has-the-offline-data-been-onboarded-online
+    text: "How has the offline data been onboarded online?"
+    tags: ["data"]
+  - id: ssp-to-buy-side-how-does-the-dsp-respond-to-a-bid-request-without-gdpr-signals
+    text: "How does the DSP respond to a bid request without GDPR signals?"
+    tags: ["gdpr","data"]
+  - id: ssp-to-buy-side-do-you-monetise-on-the-requests-that-don-t-have-consent
+    text: "Do you monetise on the requests that don’t have consent?"
+    tags: ["consent","data"]
+  - id: ssp-to-buy-side-what-mechanism-does-the-dsp-have-in-place-to-identify-fraudulent-inventory
+    text: "What mechanism does the DSP have in place to identify fraudulent inventory?"
+    tags: ["inventory","data"]
+  - id: ssp-to-buy-side-is-the-dsp-equipped-with-the-right-targeting-tools-to-buy-ott-inventory-across-multiple-devices-and-the-ability-to-report-on-it
+    text: "Is the DSP equipped with the right targeting tools to buy OTT inventory across multiple devices and the ability to report on it?"
+    tags: ["inventory","data"]
+  - id: ssp-to-buy-side-do-you-need-tooling-for-performance-diagnostics-win-rate-throttling-supply-gaps
+    text: "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?"
+    tags: ["spo","measurement"]

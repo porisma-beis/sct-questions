@@ -1,0 +1,16 @@
+id: buyer-to-curator
+origin: "Buyer"
+destination: "Curator"
+questions:
+  - id: buyer-to-curator-what-kind-of-targeting-data-do-you-use-to-curate-inventory
+    text: "What kind of targeting data do you use to curate inventory?"
+    tags: ["inventory","data"]
+  - id: buyer-to-curator-where-and-how-the-targeting-data-is-collected
+    text: "Where and how the targeting data is collected?"
+    tags: ["data"]
+  - id: buyer-to-curator-what-is-your-data-recency-refresh-cadence-and-expiry-policy
+    text: "What is your data recency, refresh cadence, and expiry policy?"
+    tags: ["data"]
+  - id: buyer-to-curator-do-you-support-cookieless-signals-contextual-classification-or-clean-room-integrations
+    text: "Do you support cookieless signals, contextual classification, or clean‑room integrations?"
+    tags: ["identity","data"]

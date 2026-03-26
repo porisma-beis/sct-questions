@@ -1,0 +1,28 @@
+id: ssp-to-buyer
+origin: "SSP"
+destination: "Buyer"
+questions:
+  - id: ssp-to-buyer-does-your-dsp-refund-you-for-fraudulent-inventory
+    text: "Does your DSP refund you for fraudulent inventory?"
+    tags: ["cost","inventory"]
+  - id: ssp-to-buyer-what-tools-do-you-use-to-measure-viewability
+    text: "What tools do you use to measure viewability?"
+    tags: ["measurement","cost"]
+  - id: ssp-to-buyer-is-your-dsp-providing-you-with-bid-shading-capabilities
+    text: "Is your DSP providing you with bid shading capabilities?"
+    tags: ["cost"]
+  - id: ssp-to-buyer-what-fraud-detection-tools-do-you-use
+    text: "What fraud detection tools do you use?"
+    tags: ["fraud","cost"]
+  - id: ssp-to-buyer-how-much-omp-v-pmp-do-you-buy
+    text: "How much OMP v PMP do you buy?"
+    tags: ["inventory","cost"]
+  - id: ssp-to-buyer-do-you-have-a-preferred-pmp-ssp
+    text: "Do you have a preferred PMP SSP?"
+    tags: ["inventory","cost"]
+  - id: ssp-to-buyer-does-your-dsp-provide-a-comprehensive-cost-breakdown-media-data-tech-fees
+    text: "Does your DSP provide a comprehensive cost breakdown (media, data, tech fees)?"
+    tags: ["cost","data"]
+  - id: ssp-to-buyer-what-are-the-most-sought-after-formats
+    text: "What are the most sought after formats?"
+    tags: ["cost"]

@@ -1,0 +1,16 @@
+id: seller-to-ad-network
+origin: "Seller"
+destination: "Ad Network"
+questions:
+  - id: seller-to-ad-network-do-i-pay-media-fees-here
+    text: "Do I pay media fees here?"
+    tags: ["cost"]
+  - id: seller-to-ad-network-do-i-pay-platform-fees-here
+    text: "Do I pay platform fees here?"
+    tags: ["cost"]
+  - id: seller-to-ad-network-are-fees-correlated-with-volume-or-price-or-both
+    text: "Are fees correlated with volume or price, or both?"
+    tags: ["cost"]
+  - id: seller-to-ad-network-what-service-model-is-being-deployed
+    text: "What service model is being deployed?"
+    tags: ["cost"]

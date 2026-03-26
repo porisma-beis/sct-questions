@@ -1,0 +1,19 @@
+id: ssp-to-measurement-provider
+origin: "SSP"
+destination: "Measurement Provider"
+questions:
+  - id: ssp-to-measurement-provider-how-do-you-distinguish-between-sivt-and-legitimate-data-center-traffic
+    text: "How do you distinguish between SIVT and legitimate data-center traffic?"
+    tags: ["fraud","inventory","data"]
+  - id: ssp-to-measurement-provider-how-do-you-calculate-attention-time-does-it-include-elements-such-as-eye-tracking-proxies-scroll-speed-or-hardware-signals
+    text: "How do you calculate Attention Time? Does it include elements such as eye-tracking proxies, scroll speed, or hardware signals?"
+    tags: ["measurement","inventory"]
+  - id: ssp-to-measurement-provider-do-you-provide-carbon-emissions-reporting-that-can-help-us-identify-and-reduce-high-carbon-paths-in-our-supply
+    text: "Do you provide Carbon Emissions reporting that can help us identify and reduce 'high-carbon' paths in our supply?"
+    tags: ["carbon","measurement"]
+  - id: ssp-to-measurement-provider-how-frequently-is-data-pushed-to-our-dashboard-do-you-offer-real-time-data-feeds-via-api
+    text: "How frequently is data pushed to our dashboard? Do you offer Real-Time Data Feeds via API?"
+    tags: ["measurement","data"]
+  - id: ssp-to-measurement-provider-do-you-offer-a-pre-bid-integration-so-that-your-data-can-be-used-to-block-an-impression-before-it-s-served-to-prevent-a-brand-safety-violation-or-is-it-only-post-bid-reporting
+    text: "Do you offer a Pre-Bid integration so that your data can be used to block an impression before it's served to prevent a brand safety violation, or is it only post-bid reporting?"
+    tags: ["measurement","data"]

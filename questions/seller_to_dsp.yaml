@@ -1,0 +1,7 @@
+id: seller-to-dsp
+origin: "Seller"
+destination: "DSP"
+questions:
+  - id: seller-to-dsp-do-you-represent-any-unique-demand
+    text: "Do you represent any unique demand?"
+    tags: ["inventory"]

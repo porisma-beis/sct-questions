@@ -1,0 +1,61 @@
+id: ssp-to-dsp
+origin: "SSP"
+destination: "DSP"
+questions:
+  - id: ssp-to-dsp-do-i-pay-media-fees-here
+    text: "Do I pay media fees here?"
+    tags: ["cost"]
+  - id: ssp-to-dsp-are-fees-correlated-with-volume-or-price-or-both
+    text: "Are fees correlated with volume or price, or both?"
+    tags: ["cost"]
+  - id: ssp-to-dsp-what-service-model-is-being-deployed
+    text: "What service model is being deployed?"
+    tags: ["cost"]
+  - id: ssp-to-dsp-are-you-able-to-handle-bid-requests-containing-arrays
+    text: "Are you able to handle bid requests containing arrays?"
+    tags: ["cost"]
+  - id: ssp-to-dsp-what-method-do-you-use-for-impression-counting
+    text: "What method do you use for impression counting?"
+    tags: ["measurement","cost"]
+  - id: ssp-to-dsp-do-you-support-omsdk
+    text: "Do you support OMSDK?"
+    tags: ["measurement","cost"]
+  - id: ssp-to-dsp-do-you-utilise-bid-shading-across-the-auctions
+    text: "Do you utilise bid shading across the auctions?"
+    tags: ["cost"]
+  - id: ssp-to-dsp-do-you-represent-any-unique-demand
+    text: "Do you represent any unique demand?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-what-is-the-split-of-your-demand-pmps-vs-om
+    text: "What is the split of your demand (PMPs vs OM)?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-what-is-the-proportion-of-your-demand-when-it-comes-to-direct-demand-vs-agency-demand-vs-intermediaries
+    text: "What is the proportion of your demand when it comes to Direct demand vs Agency demand vs Intermediaries?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-do-you-resell-redistribute-the-traffic-to-third-parties
+    text: "Do you resell/redistribute the traffic to third parties?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-how-do-you-perform-spo-which-factors-are-taken-into-account
+    text: "How do you perform SPO, which factors are taken into account?"
+    tags: ["spo","inventory"]
+  - id: ssp-to-dsp-is-the-supply-pre-roll-or-in-banner
+    text: "Is the supply pre-roll or in-banner?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-is-the-supply-in-stream-or-out-stream
+    text: "Is the supply in-stream or out-stream?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-is-the-supply-vpaid-or-vast-which-version-of-vast-what-is-the-ratio-between-them
+    text: "Is the supply VPAID or VAST? Which version of VAST? What is the ratio between them?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-do-you-support-ad-podding
+    text: "Do you support ad-podding?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-does-your-video-supply-support-vast-2-0-what-of-your-overall-offering-supports-this
+    text: "Does your video supply support VAST 2.0? What % of your overall offering supports this?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-does-your-video-supply-support-vast-4-2-what-of-your-overall-offering-supports-this
+    text: "Does your video supply support VAST 4.2? What % of your overall offering supports this?"
+    tags: ["inventory"]
+  - id: ssp-to-dsp-do-you-apply-the-latest-iab-tech-lab-video-ad-categorization-for-your-in-stream-inventory-instream-vs-accompanying-content-vs-interstitial-vs-no-content-standalone-placements
+    text: "Do you apply the latest IAB Tech - Lab video ad categorization for your in stream inventory (Instream vs Accompanying Content vs Interstitial vs No Content/standalone placements)?"
+    tags: ["inventory"]

@@ -1,0 +1,43 @@
+id: ssp-to-seller
+origin: "SSP"
+destination: "Seller"
+questions:
+  - id: ssp-to-seller-under-which-legal-basis-are-you-storing-cookies-for-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies for in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: ssp-to-seller-are-you-passing-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user
+    text: "Are you passing IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?"
+    tags: ["consent","data"]
+  - id: ssp-to-seller-do-you-support-sending-curated-audiences-seller-defined-audiences
+    text: "Do you support sending Curated Audiences/Seller Defined Audiences?"
+    tags: ["data"]
+  - id: ssp-to-seller-is-the-url-transparent-or-masked
+    text: "Is the URL transparent or masked?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-is-the-top-level-domain-passed-or-complete-page-url-passed-page-level-detail
+    text: "Is the top level domain passed or complete page URL passed (page level detail)?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-is-the-inventory-you-have-owned-and-operated-by-you-or-exclusive
+    text: "Is the inventory you have owned and operated by you or exclusive?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-is-the-app-id-and-or-bundle-id-passed
+    text: "Is the app ID and / or bundle ID passed?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-can-the-inventory-be-filtered-by-geo
+    text: "Can the inventory be filtered by Geo?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-how-will-i-be-listed-in-your-ads-txt-file
+    text: "How will I be listed in your ads.txt file?"
+    tags: ["ads-txt","inventory"]
+  - id: ssp-to-seller-how-often-do-you-update-app-ads-txt-file-do-you-have-any-criteria-when-to-add-remove-a-partner-from-it
+    text: "How often do you update (app)ads.txt file? Do you have any criteria when to add/remove a partner from it?"
+    tags: ["ads-txt","inventory"]
+  - id: ssp-to-seller-can-third-party-verification-vendors-track-your-urls
+    text: "Can third-party verification vendors track your URLs?"
+    tags: ["inventory"]
+  - id: ssp-to-seller-what-level-of-content-granularity-do-you-provide-e-g-tv-channels-tv-programmes
+    text: "What level of content granularity do you provide? (e.g. TV channels, TV programmes)"
+    tags: ["inventory"]
+  - id: ssp-to-seller-if-no-user-id-info-is-available-do-you-pass-device-ifa-on-the-ad-request
+    text: "If no user ID info is available, do you pass Device IFA on the ad request?"
+    tags: ["identity","inventory"]

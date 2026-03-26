@@ -1,0 +1,16 @@
+id: dsp-to-sell-side
+origin: "DSP"
+destination: "Sell-Side"
+questions:
+  - id: dsp-to-sell-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: dsp-to-sell-side-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user
+    text: "Are you reading IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?"
+    tags: ["consent","data"]
+  - id: dsp-to-sell-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
+  - id: dsp-to-sell-side-what-is-my-audience-match-rate-can-this-be-improved
+    text: "What is my audience match rate? Can this be improved?"
+    tags: ["data"]

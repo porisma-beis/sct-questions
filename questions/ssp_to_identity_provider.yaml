@@ -1,0 +1,61 @@
+id: ssp-to-identity-provider
+origin: "SSP"
+destination: "Identity Provider"
+questions:
+  - id: ssp-to-identity-provider-what-is-the-availability-and-scale-by-country
+    text: "What is the availability and scale by country?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country
+    text: "What current SSP integrations do you have, by region and country?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country
+    text: "What is the timeline of future SSP integrations by region and country?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-what-dsp-integrations-are-there
+    text: "What DSP integrations are there?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution
+    text: "Can you provide a list of publishers integrated with a first-party addressability solution?"
+    tags: ["identity","inventory"]
+  - id: ssp-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge
+    text: "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-is-the-creation-of-your-id-dependent-on-users-providing-personally-identifiable-information-pii-email-phone-number-address-etc
+    text: "Is the creation of your ID dependent on users providing personally identifiable information (PII)? (email, phone number, address, etc.)"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies
+    text: "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?"
+    tags: ["consent","data"]
+  - id: ssp-to-identity-provider-can-you-list-the-consent-frameworks-your-id-solution-is-integrated-or-compatible-with
+    text: "Can you list the consent frameworks your ID solution is integrated or compatible with?"
+    tags: ["consent","data"]
+  - id: ssp-to-identity-provider-can-you-explain-how-the-solution-works-technically-or-provide-a-flow-diagram
+    text: "Can you explain how the solution works technically or provide a flow diagram?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-is-the-id-user-level
+    text: "Is the ID user-level?"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-is-the-id-present-in-ctv-supply-if-yes
+    text: "Is the ID present in CTV supply? If yes:"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-with-what-ssps
+    text: "With what SSPs?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]
+  - id: ssp-to-identity-provider-what-is-the-id-s-value-proposition-statement
+    text: "What is the ID’s value proposition statement?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-what-are-the-primary-benefits-of-the-id
+    text: "What are the primary benefits of the ID?"
+    tags: ["data"]
+  - id: ssp-to-identity-provider-what-are-the-differentiators-of-the-id-compared-to-others-in-the-marketplace
+    text: "What are the differentiators of the ID compared to others in the marketplace?"
+    tags: ["data"]

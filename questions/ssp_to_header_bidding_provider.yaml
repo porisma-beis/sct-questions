@@ -1,0 +1,10 @@
+id: ssp-to-header-bidding-provider
+origin: "SSP"
+destination: "Header Bidding Provider"
+questions:
+  - id: ssp-to-header-bidding-provider-are-there-any-wrapper-fees-or-integration-maintenance-fees-charged-to-the-ssp
+    text: "Are there any 'wrapper fees' or 'integration maintenance fees' charged to the SSP?"
+    tags: ["cost","inventory"]
+  - id: ssp-to-header-bidding-provider-what-is-your-process-for-resolving-reporting-discrepancies-between-the-wrapper-s-recorded-wins-and-our-ssp-s-recorded-impressions
+    text: "What is your process for resolving reporting discrepancies between the wrapper’s recorded wins and our SSP’s recorded impressions?"
+    tags: ["measurement","inventory"]

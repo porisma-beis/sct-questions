@@ -1,0 +1,25 @@
+id: dmp-to-seller
+origin: "DMP"
+destination: "Seller"
+questions:
+  - id: dmp-to-seller-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: dmp-to-seller-how-will-the-data-be-used
+    text: "How will the data be used?"
+    tags: ["data"]
+  - id: dmp-to-seller-will-the-data-be-matched-to-other-data-and-if-so-how
+    text: "Will the data be matched to other data and if so, how?"
+    tags: ["data"]
+  - id: dmp-to-seller-what-are-your-match-rates-to-common-activation-platforms
+    text: "What are your match rates to common activation platforms?"
+    tags: ["data"]
+  - id: dmp-to-seller-will-the-data-be-shared-with-additional-parties
+    text: "Will the data be shared with additional parties?"
+    tags: ["data"]
+  - id: dmp-to-seller-how-long-will-the-data-be-retained
+    text: "How long will the data be retained?"
+    tags: ["data"]
+  - id: dmp-to-seller-how-was-the-data-collected-and-the-audience-profiled
+    text: "How was the data collected and the audience profiled?"
+    tags: ["data"]

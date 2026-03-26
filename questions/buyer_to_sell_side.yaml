@@ -1,0 +1,25 @@
+id: buyer-to-sell-side
+origin: "Buyer"
+destination: "Sell-Side"
+questions:
+  - id: buyer-to-sell-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: buyer-to-sell-side-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user
+    text: "Are you reading IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?"
+    tags: ["consent","data"]
+  - id: buyer-to-sell-side-do-you-have-a-cmp-in-place
+    text: "Do you have a CMP in place?"
+    tags: ["consent","data"]
+  - id: buyer-to-sell-side-do-you-own-operate-media-properties-you-are-monetising
+    text: "Do you own / operate media properties you are monetising?"
+    tags: ["data"]
+  - id: buyer-to-sell-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
+  - id: buyer-to-sell-side-how-has-the-offline-data-been-onboarded-online
+    text: "How has the offline data been onboarded online?"
+    tags: ["data"]
+  - id: buyer-to-sell-side-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed
+    text: "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed)?"
+    tags: ["data"]
