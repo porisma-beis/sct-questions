@@ -5,6 +5,9 @@ questions:
   - id: dsp-to-ssp-what-other-buying-models-can-we-implement-and-can-there-be-loss-notifications-at-scale-avoiding-tech-costs
     text: "What other buying models can we implement, and can there be loss notifications at scale avoiding tech costs?"
     tags: ["cost"]
+  - id: dsp-to-ssp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
   - id: dsp-to-ssp-is-it-possible-to-generate-loss-notifications-for-programmatic-guaranteed-to-prove-its-working
     text: "Is it possible to generate loss notifications for programmatic guaranteed to prove its working?"
     tags: ["cost","inventory"]
@@ -95,3 +98,6 @@ questions:
   - id: dsp-to-ssp-what-bid-signals-do-you-provide-to-help-identify-video-supply
     text: "What bid signals do you provide to help identify video supply?"
     tags: ["inventory"]
+  - id: dsp-to-ssp-what-is-my-audience-match-rate-can-this-be-improved
+    text: "What is my audience match rate? Can this be improved?"
+    tags: ["data"]

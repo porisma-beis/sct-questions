@@ -9,10 +9,6 @@
       "label": "Any Stakeholder"
     },
     {
-      "id": "Buy-Side",
-      "label": "Buy-Side"
-    },
-    {
       "id": "Buyer",
       "label": "Buyer"
     },
@@ -43,10 +39,6 @@
     {
       "id": "Measurement Provider",
       "label": "Measurement Provider"
-    },
-    {
-      "id": "Sell-Side",
-      "label": "Sell-Side"
     },
     {
       "id": "Seller",
@@ -94,9 +86,14 @@
       "destination": "Measurement Provider"
     },
     {
-      "id": "buyer-to-sell-side",
+      "id": "buyer-to-seller",
       "origin": "Buyer",
-      "destination": "Sell-Side"
+      "destination": "Seller"
+    },
+    {
+      "id": "buyer-to-ssp",
+      "origin": "Buyer",
+      "destination": "SSP"
     },
     {
       "id": "data-provider-to-buyer",
@@ -164,9 +161,9 @@
       "destination": "Identity Provider"
     },
     {
-      "id": "dsp-to-sell-side",
+      "id": "dsp-to-seller",
       "origin": "DSP",
-      "destination": "Sell-Side"
+      "destination": "Seller"
     },
     {
       "id": "dsp-to-ssp",
@@ -212,11 +209,6 @@
       "id": "seller-to-ssp",
       "origin": "Seller",
       "destination": "SSP"
-    },
-    {
-      "id": "ssp-to-buy-side",
-      "origin": "SSP",
-      "destination": "Buy-Side"
     },
     {
       "id": "ssp-to-buyer",
@@ -2021,19 +2013,9 @@
       ]
     },
     {
-      "id": "buyer-to-sell-side-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user",
+      "id": "buyer-to-seller-do-you-have-a-cmp-in-place",
       "origin": "Buyer",
-      "destination": "Sell-Side",
-      "text": "Are you reading IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-sell-side-do-you-have-a-cmp-in-place",
-      "origin": "Buyer",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Do you have a CMP in place?",
       "tags": [
         "consent",
@@ -2041,49 +2023,59 @@
       ]
     },
     {
-      "id": "buyer-to-sell-side-do-you-own-operate-media-properties-you-are-monetising",
+      "id": "buyer-to-seller-do-you-own-operate-media-properties-you-are-monetising",
       "origin": "Buyer",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Do you own / operate media properties you are monetising?",
       "tags": [
         "data"
       ]
     },
     {
-      "id": "buyer-to-sell-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "id": "buyer-to-seller-how-has-the-offline-data-been-onboarded-online",
       "origin": "Buyer",
-      "destination": "Sell-Side",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-sell-side-how-has-the-offline-data-been-onboarded-online",
-      "origin": "Buyer",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "How has the offline data been onboarded online?",
       "tags": [
         "data"
       ]
     },
     {
-      "id": "buyer-to-sell-side-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed",
+      "id": "buyer-to-seller-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed",
       "origin": "Buyer",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed)?",
       "tags": [
         "data"
       ]
     },
     {
-      "id": "buyer-to-sell-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
+      "id": "buyer-to-seller-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
       "origin": "Buyer",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
       "tags": [
         "gdpr",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-ssp-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user",
+      "origin": "Buyer",
+      "destination": "SSP",
+      "text": "Are you reading IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?",
+      "tags": [
+        "consent",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-ssp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "origin": "Buyer",
+      "destination": "SSP",
+      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
+      "tags": [
+        "cost",
         "data"
       ]
     },
@@ -3144,9 +3136,9 @@
       ]
     },
     {
-      "id": "dsp-to-sell-side-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user",
+      "id": "dsp-to-seller-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user",
       "origin": "DSP",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Are you reading IAB Europe Transparency and Consent Framework signals and managing the data according to the consent and purpose given by the user?",
       "tags": [
         "consent",
@@ -3154,31 +3146,12 @@
       ]
     },
     {
-      "id": "dsp-to-sell-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "id": "dsp-to-seller-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
       "origin": "DSP",
-      "destination": "Sell-Side",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-sell-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
-      "origin": "DSP",
-      "destination": "Sell-Side",
+      "destination": "Seller",
       "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
       "tags": [
         "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-sell-side-what-is-my-audience-match-rate-can-this-be-improved",
-      "origin": "DSP",
-      "destination": "Sell-Side",
-      "text": "What is my audience match rate? Can this be improved?",
-      "tags": [
         "data"
       ]
     },
@@ -3298,6 +3271,16 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-if-an-ads-txt-file-is-present-and-you-are-not-listed-do-you-reject-inventory",
       "origin": "DSP",
       "destination": "SSP",
@@ -3406,6 +3389,15 @@
       "text": "What bid signals do you provide to help identify video supply?",
       "tags": [
         "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-is-my-audience-match-rate-can-this-be-improved",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What is my audience match rate? Can this be improved?",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -4111,94 +4103,6 @@
       ]
     },
     {
-      "id": "ssp-to-buy-side-do-you-monetise-on-the-requests-that-don-t-have-consent",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "Do you monetise on the requests that don’t have consent?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-do-you-need-tooling-for-performance-diagnostics-win-rate-throttling-supply-gaps",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?",
-      "tags": [
-        "spo",
-        "measurement"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-has-the-sharing-of-this-data-been-disclosed-to-the-end-user",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "Has the sharing of this data been disclosed to the end-user?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-how-does-the-dsp-respond-to-a-bid-request-without-gdpr-signals",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "How does the DSP respond to a bid request without GDPR signals?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-how-has-the-offline-data-been-onboarded-online",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "How has the offline data been onboarded online?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-is-the-dsp-equipped-with-the-right-targeting-tools-to-buy-ott-inventory-across-multiple-devices-and-the-ability-to-report-on-it",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "Is the DSP equipped with the right targeting tools to buy OTT inventory across multiple devices and the ability to report on it?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-buy-side-what-mechanism-does-the-dsp-have-in-place-to-identify-fraudulent-inventory",
-      "origin": "SSP",
-      "destination": "Buy-Side",
-      "text": "What mechanism does the DSP have in place to identify fraudulent inventory?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
       "id": "ssp-to-buyer-do-you-have-a-preferred-pmp-ssp",
       "origin": "SSP",
       "destination": "Buyer",
@@ -4226,6 +4130,24 @@
       "tags": [
         "cost",
         "inventory"
+      ]
+    },
+    {
+      "id": "ssp-to-buyer-has-the-sharing-of-this-data-been-disclosed-to-the-end-user",
+      "origin": "SSP",
+      "destination": "Buyer",
+      "text": "Has the sharing of this data been disclosed to the end-user?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "ssp-to-buyer-how-has-the-offline-data-been-onboarded-online",
+      "origin": "SSP",
+      "destination": "Buyer",
+      "text": "How has the offline data been onboarded online?",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -4350,6 +4272,26 @@
       ]
     },
     {
+      "id": "ssp-to-dsp-do-you-monetise-on-the-requests-that-don-t-have-consent",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "Do you monetise on the requests that don’t have consent?",
+      "tags": [
+        "consent",
+        "data"
+      ]
+    },
+    {
+      "id": "ssp-to-dsp-do-you-need-tooling-for-performance-diagnostics-win-rate-throttling-supply-gaps",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?",
+      "tags": [
+        "spo",
+        "measurement"
+      ]
+    },
+    {
       "id": "ssp-to-dsp-do-you-represent-any-unique-demand",
       "origin": "SSP",
       "destination": "DSP",
@@ -4414,6 +4356,16 @@
       ]
     },
     {
+      "id": "ssp-to-dsp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
       "id": "ssp-to-dsp-how-do-you-perform-spo-which-factors-are-taken-into-account",
       "origin": "SSP",
       "destination": "DSP",
@@ -4421,6 +4373,26 @@
       "tags": [
         "spo",
         "inventory"
+      ]
+    },
+    {
+      "id": "ssp-to-dsp-how-does-the-dsp-respond-to-a-bid-request-without-gdpr-signals",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "How does the DSP respond to a bid request without GDPR signals?",
+      "tags": [
+        "gdpr",
+        "data"
+      ]
+    },
+    {
+      "id": "ssp-to-dsp-is-the-dsp-equipped-with-the-right-targeting-tools-to-buy-ott-inventory-across-multiple-devices-and-the-ability-to-report-on-it",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "Is the DSP equipped with the right targeting tools to buy OTT inventory across multiple devices and the ability to report on it?",
+      "tags": [
+        "inventory",
+        "data"
       ]
     },
     {
@@ -4451,6 +4423,16 @@
       ]
     },
     {
+      "id": "ssp-to-dsp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
+      "tags": [
+        "gdpr",
+        "data"
+      ]
+    },
+    {
       "id": "ssp-to-dsp-what-is-the-proportion-of-your-demand-when-it-comes-to-direct-demand-vs-agency-demand-vs-intermediaries",
       "origin": "SSP",
       "destination": "DSP",
@@ -4466,6 +4448,16 @@
       "text": "What is the split of your demand (PMPs vs OM)?",
       "tags": [
         "inventory"
+      ]
+    },
+    {
+      "id": "ssp-to-dsp-what-mechanism-does-the-dsp-have-in-place-to-identify-fraudulent-inventory",
+      "origin": "SSP",
+      "destination": "DSP",
+      "text": "What mechanism does the DSP have in place to identify fraudulent inventory?",
+      "tags": [
+        "inventory",
+        "data"
       ]
     },
     {

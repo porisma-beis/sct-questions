@@ -2,6 +2,12 @@ id: ssp-to-dsp
 origin: "SSP"
 destination: "DSP"
 questions:
+  - id: ssp-to-dsp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: ssp-to-dsp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
   - id: ssp-to-dsp-do-i-pay-media-fees-here
     text: "Do I pay media fees here?"
     tags: ["cost"]
@@ -59,3 +65,18 @@ questions:
   - id: ssp-to-dsp-do-you-apply-the-latest-iab-tech-lab-video-ad-categorization-for-your-in-stream-inventory-instream-vs-accompanying-content-vs-interstitial-vs-no-content-standalone-placements
     text: "Do you apply the latest IAB Tech - Lab video ad categorization for your in stream inventory (Instream vs Accompanying Content vs Interstitial vs No Content/standalone placements)?"
     tags: ["inventory"]
+  - id: ssp-to-dsp-how-does-the-dsp-respond-to-a-bid-request-without-gdpr-signals
+    text: "How does the DSP respond to a bid request without GDPR signals?"
+    tags: ["gdpr","data"]
+  - id: ssp-to-dsp-do-you-monetise-on-the-requests-that-don-t-have-consent
+    text: "Do you monetise on the requests that don’t have consent?"
+    tags: ["consent","data"]
+  - id: ssp-to-dsp-what-mechanism-does-the-dsp-have-in-place-to-identify-fraudulent-inventory
+    text: "What mechanism does the DSP have in place to identify fraudulent inventory?"
+    tags: ["inventory","data"]
+  - id: ssp-to-dsp-is-the-dsp-equipped-with-the-right-targeting-tools-to-buy-ott-inventory-across-multiple-devices-and-the-ability-to-report-on-it
+    text: "Is the DSP equipped with the right targeting tools to buy OTT inventory across multiple devices and the ability to report on it?"
+    tags: ["inventory","data"]
+  - id: ssp-to-dsp-do-you-need-tooling-for-performance-diagnostics-win-rate-throttling-supply-gaps
+    text: "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?"
+    tags: ["spo","measurement"]

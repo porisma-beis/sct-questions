@@ -2,6 +2,12 @@ id: ssp-to-buyer
 origin: "SSP"
 destination: "Buyer"
 questions:
+  - id: ssp-to-buyer-has-the-sharing-of-this-data-been-disclosed-to-the-end-user
+    text: "Has the sharing of this data been disclosed to the end-user?"
+    tags: ["data"]
+  - id: ssp-to-buyer-how-has-the-offline-data-been-onboarded-online
+    text: "How has the offline data been onboarded online?"
+    tags: ["data"]
   - id: ssp-to-buyer-does-your-dsp-refund-you-for-fraudulent-inventory
     text: "Does your DSP refund you for fraudulent inventory?"
     tags: ["cost","inventory"]

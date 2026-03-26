@@ -1,0 +1,19 @@
+id: buyer-to-seller
+origin: "Buyer"
+destination: "Seller"
+questions:
+  - id: buyer-to-seller-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
+    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
+    tags: ["gdpr","data"]
+  - id: buyer-to-seller-do-you-have-a-cmp-in-place
+    text: "Do you have a CMP in place?"
+    tags: ["consent","data"]
+  - id: buyer-to-seller-do-you-own-operate-media-properties-you-are-monetising
+    text: "Do you own / operate media properties you are monetising?"
+    tags: ["data"]
+  - id: buyer-to-seller-how-has-the-offline-data-been-onboarded-online
+    text: "How has the offline data been onboarded online?"
+    tags: ["data"]
+  - id: buyer-to-seller-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed
+    text: "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed)?"
+    tags: ["data"]
