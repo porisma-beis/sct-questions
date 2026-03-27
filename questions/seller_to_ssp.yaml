@@ -56,3 +56,21 @@ questions:
   - id: seller-to-ssp-how-do-you-technically-enforce-ads-txt-app-ads-txt-compliance-warn-throttle-block-price-adjust
     text: "How do you technically enforce ads.txt / app-ads.txt compliance (warn, throttle, block, price-adjust)?"
     tags: ["ads-txt","cost"]
+  - id: seller-to-ssp-what-measures-are-in-place-to-prevent-malware
+    text: "What measures are in place to prevent malware?"
+    tags: ["fraud"]
+  - id: seller-to-ssp-can-specific-ad-technologies-be-blocked
+    text: "Can specific ad technologies be blocked?"
+    tags: ["fraud"]
+  - id: seller-to-ssp-is-third-party-verification-supported-across-environments-and-are-industry-standards-such-as-open-measurement-sdk-omsdk-implemented-where-relevant
+    text: "Is third-party verification supported across environments, and are industry standards such as Open Measurement SDK (OMSDK) implemented where relevant?"
+    tags: ["measurement","fraud"]
+  - id: seller-to-ssp-are-iab-europe-transparency-and-consent-framework-tcf-signals-read-and-processed-in-accordance-with-the-consent-and-purposes-provided-by-the-user
+    text: "Are IAB Europe Transparency & Consent Framework (TCF) signals read and processed in accordance with the consent and purposes provided by the user?"
+    tags: ["consent","gdpr"]
+  - id: seller-to-ssp-how-are-opt-outs-handled-and-within-what-timeframe-are-they-processed
+    text: "How are opt-outs handled, and within what timeframe are they processed?"
+    tags: ["consent","gdpr"]
+  - id: seller-to-ssp-are-requests-lacking-valid-consent-monetised
+    text: "Are requests lacking valid consent monetised?"
+    tags: ["consent","gdpr"]

@@ -59,3 +59,36 @@ questions:
   - id: buyer-to-identity-provider-what-are-the-differentiators-of-the-id-compared-to-others-in-the-marketplace
     text: "What are the differentiators of the ID compared to others in the marketplace?"
     tags: ["data"]
+  - id: buyer-to-identity-provider-can-the-data-be-applied-cross-device-and-if-so-is-the-methodology-deterministic-or-probabilistic
+    text: "Can the data be applied cross-device, and if so, is the methodology deterministic or probabilistic?"
+    tags: ["identity","data"]
+  - id: buyer-to-identity-provider-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii
+    text: "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?"
+    tags: ["identity","data"]
+  - id: buyer-to-identity-provider-is-the-identifier-constructed-at-user-level
+    text: "Is the identifier constructed at user level?"
+    tags: ["identity","data"]
+  - id: buyer-to-identity-provider-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region
+    text: "What is the availability and scale of the identifier by country or region?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-what-integrations-exist-across-activation-and-supply-platforms-by-region-country
+    text: "What integrations exist across activation and supply platforms (by region/country)?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with
+    text: "Which consent frameworks is the identifier integrated with or compatible with?"
+    tags: ["consent","identity"]
+  - id: buyer-to-identity-provider-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram
+    text: "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-does-the-identifier-provide-addressability-in-cookie-restricted-browsers
+    text: "Does the identifier provide addressability in cookie-restricted browsers?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-does-the-identifier-provide-addressability-in-ios-app-environments
+    text: "Does the identifier provide addressability in iOS app environments?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-is-the-identifier-present-within-connected-tv-ctv-supply
+    text: "Is the identifier present within Connected TV (CTV) supply?"
+    tags: ["identity"]
+  - id: buyer-to-identity-provider-are-user-opt-in-opt-out-preferences-directly-tied-to-the-identifier
+    text: "Are user opt-in/opt-out preferences directly tied to the identifier?"
+    tags: ["consent","identity"]

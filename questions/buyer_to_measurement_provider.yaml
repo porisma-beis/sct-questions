@@ -8,3 +8,57 @@ questions:
   - id: buyer-to-measurement-provider-do-you-provide-any-data-level-spo-diagnostics-e-g-which-data-segments-contribute-most-to-objectives
     text: "Do you provide any data‑level SPO diagnostics (e.g. which data segments contribute most to objectives)?"
     tags: ["spo","measurement","data"]
+  - id: buyer-to-measurement-provider-is-log-level-reporting-provided
+    text: "Is log-level reporting provided?"
+    tags: ["measurement"]
+  - id: buyer-to-measurement-provider-what-reporting-is-available-to-support-supply-path-optimisation-spo
+    text: "What reporting is available to support Supply Path Optimisation (SPO)?"
+    tags: ["spo","measurement"]
+  - id: buyer-to-measurement-provider-which-data-dimensions-can-be-used-for-reconciliation-and-matching
+    text: "Which data dimensions can be used for reconciliation and matching?"
+    tags: ["measurement","data"]
+  - id: buyer-to-measurement-provider-how-is-reporting-collected-and-matched-across-platforms
+    text: "How is reporting collected and matched across platforms?"
+    tags: ["measurement"]
+  - id: buyer-to-measurement-provider-what-reporting-integrations-exist-across-platforms
+    text: "What reporting integrations exist across platforms?"
+    tags: ["measurement"]
+  - id: buyer-to-measurement-provider-how-are-discrepancies-between-platforms-managed
+    text: "How are discrepancies between platforms managed?"
+    tags: ["measurement"]
+  - id: buyer-to-measurement-provider-what-methodology-is-used-for-impression-counting
+    text: "What methodology is used for impression counting?"
+    tags: ["measurement","data"]
+  - id: buyer-to-measurement-provider-how-frequently-is-reporting-data-refreshed-or-pushed-to-dashboards
+    text: "How frequently is reporting data refreshed or pushed to dashboards?"
+    tags: ["measurement","data"]
+  - id: buyer-to-measurement-provider-are-real-time-data-feeds-available-via-api
+    text: "Are real-time data feeds available via API?"
+    tags: ["measurement","data"]
+  - id: buyer-to-measurement-provider-is-tooling-available-for-performance-diagnostics-e-g-win-rate-analysis-throttling-detection-supply-gap-identification
+    text: "Is tooling available for performance diagnostics (e.g. win rate analysis, throttling detection, supply gap identification)?"
+    tags: ["spo","measurement"]
+  - id: buyer-to-measurement-provider-are-resellers-explicitly-identified-in-reporting-interfaces
+    text: "Are resellers explicitly identified in reporting interfaces?"
+    tags: ["inventory","measurement"]
+  - id: buyer-to-measurement-provider-are-authenticity-and-authorisation-signals-surfaced-transparently-within-reporting-interfaces
+    text: "Are authenticity and authorisation signals surfaced transparently within reporting interfaces?"
+    tags: ["inventory","measurement"]
+  - id: buyer-to-measurement-provider-can-log-level-data-be-used-to-reconcile-authorisation-signals-post-auction
+    text: "Can log-level data be used to reconcile authorisation signals post-auction?"
+    tags: ["cost","inventory","measurement"]
+  - id: buyer-to-measurement-provider-is-a-fraud-free-guarantee-provided
+    text: "Is a fraud-free guarantee provided?"
+    tags: ["fraud"]
+  - id: buyer-to-measurement-provider-what-fraud-detection-tools-are-utilised
+    text: "What fraud detection tools are utilised?"
+    tags: ["fraud"]
+  - id: buyer-to-measurement-provider-what-level-of-fraud-tolerance-is-defined
+    text: "What level of fraud tolerance is defined?"
+    tags: ["fraud"]
+  - id: buyer-to-measurement-provider-can-domain-spoofing-be-detected-and-addressed
+    text: "Can domain spoofing be detected and addressed?"
+    tags: ["fraud","inventory"]
+  - id: buyer-to-measurement-provider-are-mfa-sites-invalid-traffic-or-fraudulent-resellers-actively-scanned-and-mitigated
+    text: "Are MFA sites, invalid traffic, or fraudulent resellers actively scanned and mitigated?"
+    tags: ["fraud","inventory"]

@@ -1,6 +1,6 @@
 # Supply Chain Transparency Graph Content Repo
 
-This repository stores the public question bank for the Supply Chain Transparency Graph. Human editors work in edge-specific YAML files, and the UI consumes the compiled JSON output from `dist/questions.json`.
+This repository stores the public question bank for the Supply Chain Transparency Graph. Questions live in edge-specific YAML files, and the UI consumes the compiled JSON output from `dist/questions.json`.
 
 ## Structure
 
@@ -22,6 +22,36 @@ questions:
     text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
     tags: ["gdpr", "consent"]
 ```
+
+## Question Assignment Rules
+
+These rules define how to assign questions to stakeholder nodes in this repository.
+
+1. Always define a destination
+
+Every question must have a clear destination stakeholder.
+Ask yourself: Who is this question being asked to?
+If that is unclear, rewrite the question.
+
+2. Use “Any Stakeholder” when the asker doesn’t matter
+
+If a question could reasonably be asked by multiple stakeholders, set
+`origin: Any Stakeholder`. Do not duplicate the same question across multiple origin nodes.
+
+3. Specify origin only when it adds meaning
+
+Use a specific origin (e.g. Buyer → DSP) only if the question is genuinely role-dependent.
+If the question reads the same regardless of who is asking, set `origin: Any Stakeholder`.
+
+4. Duplicate questions across destinations when needed
+
+If the same question should be asked to multiple stakeholder types (e.g. DSP and SSP), create separate entries for each destination. Do not force a question into a single destination if responsibility is shared.
+
+5. Validate the edge as a real interaction
+
+Each question should form a natural interaction:
+“Does it make sense for this origin to ask this destination this question?”
+If not, reassign or rewrite.
 
 ## Add Or Edit Questions
 

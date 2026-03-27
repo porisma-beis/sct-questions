@@ -62,3 +62,60 @@ questions:
   - id: buyer-to-data-provider-what-ids-are-present-in-the-data-is-this-cookie-based-data-and-or-maids-mobile-ad-ids
     text: "What IDs are present in the data? Is this cookie-based data and/or MAIDs (mobile ad IDs)?"
     tags: ["identity","data"]
+  - id: buyer-to-data-provider-are-iab-europe-transparency-and-consent-framework-consent-signals-passed-alongside-the-data
+    text: "Are IAB Europe Transparency & Consent Framework consent signals passed alongside the data?"
+    tags: ["consent","data"]
+  - id: buyer-to-data-provider-is-the-data-classified-as-first-second-or-third-party-data
+    text: "Is the data classified as first-, second-, or third-party data?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-is-the-data-sourced-directly-from-a-publisher-media-owner-or-independently-sourced
+    text: "Is the data sourced directly from a publisher/media owner or independently sourced?"
+    tags: ["inventory","data"]
+  - id: buyer-to-data-provider-if-independently-sourced-what-are-the-original-sources
+    text: "If independently sourced, what are the original sources?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-what-are-the-sources-of-the-data-being-provided
+    text: "What are the sources of the data being provided?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-how-was-the-data-collected-and-how-were-audiences-profiled
+    text: "How was the data collected and how were audiences profiled?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-is-the-data-declared-provided-directly-by-users-observed-based-on-behaviour-or-modelled-extrapolated
+    text: "Is the data declared (provided directly by users), observed (based on behaviour), or modelled (extrapolated)?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-if-modelled-what-modelling-methodology-has-been-applied
+    text: "If modelled, what modelling methodology has been applied?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-has-approval-for-data-usage-and-sharing-been-obtained-from-the-originating-party-and-is-this-indicated-transparently
+    text: "Has approval for data usage and sharing been obtained from the originating party, and is this indicated transparently?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-how-is-offline-data-converted-or-onboarded-into-online-environments
+    text: "How is offline data converted or onboarded into online environments?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-what-identifiers-are-present-in-the-data-e-g-cookies-mobile-advertising-ids-alternative-identifiers
+    text: "What identifiers are present in the data (e.g. cookies, mobile advertising IDs, alternative identifiers)?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-what-is-the-age-of-the-data
+    text: "What is the age of the data?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-how-frequently-is-the-data-updated
+    text: "How frequently is the data updated?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-what-are-the-data-recency-refresh-cadence-and-expiry-policies
+    text: "What are the data recency, refresh cadence, and expiry policies?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-is-a-data-cleaning-or-validation-process-in-place
+    text: "Is a data cleaning or validation process in place?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-how-is-it-verified-that-the-requested-data-corresponds-to-what-is-delivered
+    text: "How is it verified that the requested data corresponds to what is delivered?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-what-is-the-audience-match-rate-and-can-it-be-improved
+    text: "What is the audience match rate, and can it be improved?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-how-unique-is-the-data-and-to-what-extent-is-it-widely-available-or-bid-upon
+    text: "How unique is the data, and to what extent is it widely available or bid upon?"
+    tags: ["data"]
+  - id: buyer-to-data-provider-is-a-margin-applied-to-third-party-data
+    text: "Is a margin applied to third-party data?"
+    tags: ["cost","data"]
