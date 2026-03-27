@@ -1,0 +1,13 @@
+id: any-stakeholder-to-data-provider
+origin: "Any Stakeholder"
+destination: "Data Provider"
+questions:
+  - id: any-stakeholder-to-data-provider-what-categories-of-data-do-you-collect-and-make-available
+    text: "What categories of data do you collect and make available?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-under-which-legal-basis-do-you-collect-and-share-this-data
+    text: "Under which legal basis do you collect and share this data?"
+    tags: ["gdpr","data"]
+  - id: any-stakeholder-to-data-provider-how-is-this-data-refreshed-corrected-or-removed-when-it-changes
+    text: "How is this data refreshed, corrected, or removed when it changes?"
+    tags: ["data","measurement"]
