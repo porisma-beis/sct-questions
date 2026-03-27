@@ -20,9 +20,6 @@ questions:
   - id: data-provider-to-buyer-will-the-data-be-matched-with-other-datasets-and-if-so-how
     text: "Will the data be matched with other datasets, and if so, how?"
     tags: ["data"]
-  - id: data-provider-to-buyer-will-the-data-be-shared-with-additional-parties
-    text: "Will the data be shared with additional parties?"
-    tags: ["data"]
   - id: data-provider-to-buyer-how-is-the-data-shared-and-with-which-categories-of-counterparties
     text: "How is the data shared and with which categories of counterparties?"
     tags: ["data"]

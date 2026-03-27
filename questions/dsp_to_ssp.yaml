@@ -38,14 +38,8 @@ questions:
   - id: dsp-to-ssp-which-openrtb-version-is-supported
     text: "Which OpenRTB version is supported?"
     tags: ["inventory"]
-  - id: dsp-to-ssp-is-the-url-transparent-or-masked
-    text: "Is the URL transparent or masked?"
-    tags: ["inventory"]
   - id: dsp-to-ssp-is-the-top-level-domain-or-complete-page-url-passed-page-level-detail
     text: "Is the top-level domain or complete page URL passed (page level detail)?"
-    tags: ["inventory"]
-  - id: dsp-to-ssp-is-the-app-id-and-or-bundle-id-passed
-    text: "Is the app ID and / or bundle ID passed?"
     tags: ["inventory"]
   - id: dsp-to-ssp-can-i-filter-bid-requests-by-geo
     text: "Can I filter bid requests by Geo?"

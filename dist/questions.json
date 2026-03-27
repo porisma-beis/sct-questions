@@ -5,10 +5,6 @@
       "label": "Ad Network"
     },
     {
-      "id": "Any Stakeholder",
-      "label": "Any Stakeholder"
-    },
-    {
       "id": "Buyer",
       "label": "Buyer"
     },
@@ -50,11 +46,6 @@
     }
   ],
   "edges": [
-    {
-      "id": "any-stakeholder-to-any-stakeholder",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder"
-    },
     {
       "id": "buyer-to-curator",
       "origin": "Buyer",
@@ -248,1105 +239,6 @@
   ],
   "questions": [
     {
-      "id": "any-stakeholder-to-any-stakeholder-are-ads-txt-lines-validated-for-syntax-and-formatting-errors",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are ads.txt lines validated for syntax and formatting errors?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-alerts-generated-when-authorised-seller-status-changes",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are alerts generated when authorised seller status changes?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-all-costs-included-within-the-clearing-price-or-are-additional-fees-appended",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are all costs included within the clearing price, or are additional fees appended?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-all-intermediaries-accurately-declared-within-the-supplychain-object",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are all intermediaries accurately declared within the SupplyChain Object?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-anomalous-or-non-transparent-supply-paths-automatically-flagged",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are anomalous or non-transparent supply paths automatically flagged?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-any-inventory-attributes-modified-normalised-or-obscured-before-being-passed-downstream",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are any inventory attributes modified, normalised, or obscured before being passed downstream?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-auctions-operated-on-a-first-price-or-second-price-basis",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are auctions operated on a first-price or second-price basis?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-authenticity-and-authorisation-signals-surfaced-transparently-within-reporting-interfaces",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are authenticity and authorisation signals surfaced transparently within reporting interfaces?",
-      "tags": [
-        "inventory",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-bid-prices-adjusted-due-to-associated-fees",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are bid prices adjusted due to associated fees?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-data-dmp-fees-bundled-within-media-cost-or-charged-separately",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are data/DMP fees bundled within media cost or charged separately?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-discrepancies-between-bid-request-signals-and-ads-txt-entries-monitored-and-reported",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are discrepancies between bid request signals and ads.txt entries monitored and reported?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-duplicate-bid-requests-for-the-same-impression-detected-and-deduplicated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are duplicate bid requests for the same impression detected and deduplicated?",
-      "tags": [
-        "spo",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-fees-correlated-with-volume-price-or-both",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are fees correlated with volume, price, or both?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-first-and-or-second-price-auction-flags-respected",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are first- and/or second-price auction flags respected?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-iab-europe-transparency-and-consent-framework-consent-signals-passed-alongside-the-data",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are IAB Europe Transparency & Consent Framework consent signals passed alongside the data?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-iab-europe-transparency-and-consent-framework-tcf-signals-read-and-processed-in-accordance-with-the-consent-and-purposes-provided-by-the-user",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are IAB Europe Transparency & Consent Framework (TCF) signals read and processed in accordance with the consent and purposes provided by the user?",
-      "tags": [
-        "consent",
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-inconsistencies-between-declared-domain-app-signals-and-actual-traffic-origin-monitored",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are inconsistencies between declared domain/app signals and actual traffic origin monitored?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-inconsistencies-between-schain-sellers-json-and-ads-txt-detected-and-flagged",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are inconsistencies between SChain, Sellers.json, and ads.txt detected and flagged?",
-      "tags": [
-        "ads-txt",
-        "sellers-json",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-indirect-or-reseller-relationships-clearly-identified-and-validated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are indirect or reseller relationships clearly identified and validated?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-media-fees-applied",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are media fees applied?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-mfa-sites-invalid-traffic-or-fraudulent-resellers-actively-scanned-and-mitigated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are MFA sites, invalid traffic, or fraudulent resellers actively scanned and mitigated?",
-      "tags": [
-        "fraud",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-platform-or-technology-fees-applied",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are platform or technology fees applied?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-real-time-data-feeds-available-via-api",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are real-time data feeds available via API?",
-      "tags": [
-        "measurement",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-redistribution-rights-contractually-controlled-and-technically-monitored",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are redistribution rights contractually controlled and technically monitored?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-requests-lacking-valid-consent-monetised",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are requests lacking valid consent monetised?",
-      "tags": [
-        "consent",
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-resellers-explicitly-identified-in-reporting-interfaces",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are resellers explicitly identified in reporting interfaces?",
-      "tags": [
-        "inventory",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-schain-nodes-programmatically-validated-against-sellers-json-records",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are SChain nodes programmatically validated against Sellers.json records?",
-      "tags": [
-        "sellers-json",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-seller-entries-validated-against-corresponding-ads-txt-files",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are seller entries validated against corresponding ads.txt files?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-are-user-opt-in-opt-out-preferences-directly-tied-to-the-identifier",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Are user opt-in/opt-out preferences directly tied to the identifier?",
-      "tags": [
-        "consent",
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-domain-spoofing-be-detected-and-addressed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can domain spoofing be detected and addressed?",
-      "tags": [
-        "fraud",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-high-carbon-supply-and-or-demand-paths-be-identified-and-reduced",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can high-carbon supply and/or demand paths be identified and reduced?",
-      "tags": [
-        "carbon"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-log-level-data-be-used-to-reconcile-authorisation-signals-post-auction",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can log-level data be used to reconcile authorisation signals post-auction?",
-      "tags": [
-        "cost",
-        "inventory",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-specific-ad-technologies-be-blocked",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can specific ad technologies be blocked?",
-      "tags": [
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-the-consent-mechanism-used-be-demonstrated-and-does-it-meet-defined-data-collection-requirements",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can the consent mechanism used be demonstrated, and does it meet defined data collection requirements?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-the-data-be-applied-cross-device-and-if-so-is-the-methodology-deterministic-or-probabilistic",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can the data be applied cross-device, and if so, is the methodology deterministic or probabilistic?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-does-the-identifier-provide-addressability-in-cookie-restricted-browsers",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Does the identifier provide addressability in cookie-restricted browsers?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-does-the-identifier-provide-addressability-in-ios-app-environments",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Does the identifier provide addressability in iOS app environments?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-for-how-long-is-the-data-retained",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "For how long is the data retained?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-for-what-purposes-will-the-data-be-used",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "For what purposes will the data be used?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-has-approval-for-data-usage-and-sharing-been-obtained-from-the-originating-party-and-is-this-indicated-transparently",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Has approval for data usage and sharing been obtained from the originating party, and is this indicated transparently?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-has-the-sharing-of-this-data-been-disclosed-to-the-end-user",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Has the sharing of this data been disclosed to the end user?",
-      "tags": [
-        "data",
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-are-discrepancies-between-platforms-managed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How are discrepancies between platforms managed?",
-      "tags": [
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-are-opt-outs-handled-and-within-what-timeframe-are-they-processed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How are opt-outs handled, and within what timeframe are they processed?",
-      "tags": [
-        "consent",
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-frequently-are-ads-txt-and-app-ads-txt-files-crawled-and-refreshed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How frequently are ads.txt and app-ads.txt files crawled and refreshed?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-frequently-is-reporting-data-refreshed-or-pushed-to-dashboards",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How frequently is reporting data refreshed or pushed to dashboards?",
-      "tags": [
-        "measurement",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-frequently-is-sellers-json-updated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How frequently is Sellers.json updated?",
-      "tags": [
-        "sellers-json",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-frequently-is-the-data-updated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How frequently is the data updated?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-is-it-verified-that-the-requested-data-corresponds-to-what-is-delivered",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How is it verified that the requested data corresponds to what is delivered?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-is-offline-data-converted-or-onboarded-into-online-environments",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How is offline data converted or onboarded into online environments?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-is-reporting-collected-and-matched-across-platforms",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How is reporting collected and matched across platforms?",
-      "tags": [
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-is-the-data-shared-and-with-which-categories-of-counterparties",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How is the data shared and with which categories of counterparties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-unique-is-the-data-and-to-what-extent-is-it-widely-available-or-bid-upon",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How unique is the data, and to what extent is it widely available or bid upon?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-how-was-the-data-collected-and-how-were-audiences-profiled",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "How was the data collected and how were audiences profiled?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-if-independently-sourced-what-are-the-original-sources",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "If independently sourced, what are the original sources?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-if-modelled-what-modelling-methodology-has-been-applied",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "If modelled, what modelling methodology has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-a-consent-management-platform-cmp-in-place",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is a Consent Management Platform (CMP) in place?",
-      "tags": [
-        "consent",
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-a-data-cleaning-or-validation-process-in-place",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is a data cleaning or validation process in place?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-a-fraud-free-guarantee-provided",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is a fraud-free guarantee provided?",
-      "tags": [
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-a-margin-applied-to-third-party-data",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is a margin applied to third-party data?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-authorisation-confirmed-via-ads-txt-and-or-app-ads-txt",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is authorisation confirmed via ads.txt and/or app-ads.txt?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-bid-caching-applied",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is bid caching applied?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-bid-shading-applied",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is bid shading applied?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-carbon-emissions-reporting-provided",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is carbon emissions reporting provided?",
-      "tags": [
-        "carbon",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-consent-required-for-the-technology-in-use-and-if-so-under-which-legal-basis",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is consent required for the technology in use, and if so, under which legal basis?",
-      "tags": [
-        "gdpr",
-        "consent"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-content-level-granularity-e-g-page-section-channel-programme-consistently-provided",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is content-level granularity (e.g. page, section, channel, programme) consistently provided?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-continuous-monitoring-in-place-for-authorisation-compliance-across-inventory",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is continuous monitoring in place for authorisation compliance across inventory?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-do-not-track-dnt-respected-where-applicable",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is Do Not Track (DNT) respected where applicable?",
-      "tags": [
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-historical-versioning-of-ads-txt-changes-tracked",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is historical versioning of ads.txt changes tracked?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-independent-auditing-of-supply-authenticity-conducted",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is independent auditing of supply authenticity conducted?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-log-level-reporting-provided",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is log-level reporting provided?",
-      "tags": [
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-monitoring-in-place-for-undeclared-or-unauthorised-nodes-within-the-supply-chain",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is monitoring in place for undeclared or unauthorised nodes within the supply chain?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-pricing-presented-as-a-blended-rate-or-broken-down-into-media-technology-and-data-components",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is pricing presented as a blended rate or broken down into media, technology, and data components?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-seller-authorisation-programmatically-checked-against-the-most-recent-ads-txt-file-before-bid-responses-are-accepted",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is seller authorisation programmatically checked against the most recent ads.txt file before bid responses are accepted?",
-      "tags": [
-        "ads-txt",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-sellers-json-supported-and-publicly-accessible",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is Sellers.json supported and publicly accessible?",
-      "tags": [
-        "sellers-json",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-app-id-and-or-bundle-id-passed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the app ID and/or bundle ID passed?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-data-classified-as-first-second-or-third-party-data",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the data classified as first-, second-, or third-party data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-data-collected-in-a-gdpr-compliant-manner",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the data collected in a GDPR-compliant manner?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-data-declared-provided-directly-by-users-observed-based-on-behaviour-or-modelled-extrapolated",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the data declared (provided directly by users), observed (based on behaviour), or modelled (extrapolated)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-data-sourced-directly-from-a-publisher-media-owner-or-independently-sourced",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the data sourced directly from a publisher/media owner or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-identifier-constructed-at-user-level",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the identifier constructed at user level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-identifier-present-within-connected-tv-ctv-supply",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the identifier present within Connected TV (CTV) supply?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-number-of-bidders-participating-in-an-auction-disclosed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the number of bidders participating in an auction disclosed?",
-      "tags": [
-        "cost",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-openrtb-supplychain-object-schain-implemented",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the OpenRTB SupplyChain Object (SChain) implemented?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-top-level-domain-or-full-page-url-passed-in-bid-requests",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the top-level domain or full page URL passed in bid requests?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-the-url-transparent-or-masked",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is the URL transparent or masked?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-third-party-verification-supported-across-environments-and-are-industry-standards-such-as-open-measurement-sdk-omsdk-implemented-where-relevant",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is third-party verification supported across environments, and are industry standards such as Open Measurement SDK (OMSDK) implemented where relevant?",
-      "tags": [
-        "measurement",
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-this-classification-consistently-declared-in-bid-requests-e-g-direct-vs-intermediary",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is this classification consistently declared in bid requests (e.g. direct vs intermediary)?",
-      "tags": [
-        "data",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-tooling-available-for-performance-diagnostics-e-g-win-rate-analysis-throttling-detection-supply-gap-identification",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is tooling available for performance diagnostics (e.g. win rate analysis, throttling detection, supply gap identification)?",
-      "tags": [
-        "spo",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-is-traffic-resold-or-redistributed-to-additional-third-parties",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Is traffic resold or redistributed to additional third parties?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-on-what-legal-basis-is-consent-obtained-under-gdpr-explicit-consent-or-legitimate-interest",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "On what legal basis is consent obtained under GDPR (explicit consent or legitimate interest)?",
-      "tags": [
-        "gdpr",
-        "consent"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-under-which-legal-basis-are-cookies-or-similar-technologies-stored-in-line-with-gdpr-and-applicable-national-legislation",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Under which legal basis are cookies or similar technologies stored in line with GDPR and applicable national legislation?",
-      "tags": [
-        "gdpr"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-action-is-taken-if-a-seller-is-not-listed-in-ads-txt-e-g-block-throttle-flag-price-adjust",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What action is taken if a seller is not listed in ads.txt (e.g. block, throttle, flag, price-adjust)?",
-      "tags": [
-        "ads-txt",
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-are-the-data-recency-refresh-cadence-and-expiry-policies",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What are the data recency, refresh cadence, and expiry policies?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-are-the-sources-of-the-data-being-provided",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What are the sources of the data being provided?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-controls-are-in-place-to-prevent-arbitrage-or-inventory-laundering",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What controls are in place to prevent arbitrage or inventory laundering?",
-      "tags": [
-        "fraud",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-controls-are-in-place-to-prevent-domain-spoofing",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What controls are in place to prevent domain spoofing?",
-      "tags": [
-        "fraud",
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-fraud-detection-tools-are-utilised",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What fraud detection tools are utilised?",
-      "tags": [
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-identifiers-are-present-in-the-data-e-g-cookies-mobile-advertising-ids-alternative-identifiers",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What identifiers are present in the data (e.g. cookies, mobile advertising IDs, alternative identifiers)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-integrations-exist-across-activation-and-supply-platforms-by-region-country",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What integrations exist across activation and supply platforms (by region/country)?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-is-the-age-of-the-data",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What is the age of the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-is-the-audience-match-rate-and-can-it-be-improved",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What is the audience match rate, and can it be improved?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What is the availability and scale of the identifier by country or region?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-level-of-fraud-tolerance-is-defined",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What level of fraud tolerance is defined?",
-      "tags": [
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-measures-are-in-place-to-prevent-malware",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What measures are in place to prevent malware?",
-      "tags": [
-        "fraud"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-mechanisms-are-in-place-to-prevent-internal-competition-e-g-bidding-against-the-same-demand-source",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What mechanisms are in place to prevent internal competition (e.g. bidding against the same demand source)?",
-      "tags": [
-        "spo",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-methodology-is-used-for-impression-counting",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What methodology is used for impression counting?",
-      "tags": [
-        "measurement",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-proportion-of-supply-is-sourced-directly-versus-via-resellers",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What proportion of supply is sourced directly versus via resellers?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-reporting-integrations-exist-across-platforms",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What reporting integrations exist across platforms?",
-      "tags": [
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-reporting-is-available-to-support-supply-path-optimisation-spo",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What reporting is available to support Supply Path Optimisation (SPO)?",
-      "tags": [
-        "spo",
-        "measurement"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-what-service-model-is-deployed",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "What service model is deployed?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Which consent frameworks is the identifier integrated with or compatible with?",
-      "tags": [
-        "consent",
-        "identity"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-which-data-dimensions-can-be-used-for-reconciliation-and-matching",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Which data dimensions can be used for reconciliation and matching?",
-      "tags": [
-        "measurement",
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-will-the-data-be-matched-with-other-datasets-and-if-so-how",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Will the data be matched with other datasets, and if so, how?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "any-stakeholder-to-any-stakeholder-will-the-data-be-shared-with-additional-parties",
-      "origin": "Any Stakeholder",
-      "destination": "Any Stakeholder",
-      "text": "Will the data be shared with additional parties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-curator-do-you-support-cookieless-signals-contextual-classification-or-clean-room-integrations",
       "origin": "Buyer",
       "destination": "Curator",
@@ -1379,8 +271,18 @@
       "id": "buyer-to-curator-where-and-how-the-targeting-data-is-collected",
       "origin": "Buyer",
       "destination": "Curator",
-      "text": "Where and how the targeting data is collected?",
+      "text": "Where and how is the targeting data collected?",
       "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-are-iab-europe-transparency-and-consent-framework-consent-signals-passed-alongside-the-data",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Are IAB Europe Transparency & Consent Framework consent signals passed alongside the data?",
+      "tags": [
+        "consent",
         "data"
       ]
     },
@@ -1425,6 +327,15 @@
       ]
     },
     {
+      "id": "buyer-to-data-provider-has-approval-for-data-usage-and-sharing-been-obtained-from-the-originating-party-and-is-this-indicated-transparently",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Has approval for data usage and sharing been obtained from the originating party, and is this indicated transparently?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-data-provider-has-the-data-been-verified-as-pseudonymous-or-anonymous-data-as-defined-by-gdpr",
       "origin": "Buyer",
       "destination": "Data Provider",
@@ -1463,10 +374,37 @@
       ]
     },
     {
+      "id": "buyer-to-data-provider-how-frequently-is-the-data-updated",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "How frequently is the data updated?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-data-provider-how-has-the-offline-data-been-onboarded-online",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "How has the offline data been onboarded online?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-how-is-it-verified-that-the-requested-data-corresponds-to-what-is-delivered",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "How is it verified that the requested data corresponds to what is delivered?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-how-is-offline-data-converted-or-onboarded-into-online-environments",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "How is offline data converted or onboarded into online environments?",
       "tags": [
         "data"
       ]
@@ -1490,11 +428,66 @@
       ]
     },
     {
+      "id": "buyer-to-data-provider-how-unique-is-the-data-and-to-what-extent-is-it-widely-available-or-bid-upon",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "How unique is the data, and to what extent is it widely available or bid upon?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-how-was-the-data-collected-and-how-were-audiences-profiled",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "How was the data collected and how were audiences profiled?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-if-independently-sourced-what-are-the-original-sources",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "If independently sourced, what are the original sources?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-data-provider-if-independently-sourced-where-was-the-data-sourced",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "If independently sourced, where was the data sourced?",
       "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-if-modelled-what-modelling-methodology-has-been-applied",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "If modelled, what modelling methodology has been applied?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-is-a-data-cleaning-or-validation-process-in-place",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Is a data cleaning or validation process in place?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-is-a-margin-applied-to-third-party-data",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Is a margin applied to third-party data?",
+      "tags": [
+        "cost",
         "data"
       ]
     },
@@ -1508,10 +501,28 @@
       ]
     },
     {
+      "id": "buyer-to-data-provider-is-the-data-classified-as-first-second-or-third-party-data",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Is the data classified as first-, second-, or third-party data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-data-provider-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed-if-extrapolated-then-what-size-was-the-base-group",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed, if extrapolated then what size was the base group)?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-is-the-data-declared-provided-directly-by-users-observed-based-on-behaviour-or-modelled-extrapolated",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Is the data declared (provided directly by users), observed (based on behaviour), or modelled (extrapolated)?",
       "tags": [
         "data"
       ]
@@ -1530,6 +541,16 @@
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "Is the data publisher data or independently sourced?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-is-the-data-sourced-directly-from-a-publisher-media-owner-or-independently-sourced",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "Is the data sourced directly from a publisher/media owner or independently sourced?",
       "tags": [
         "inventory",
         "data"
@@ -1564,12 +585,57 @@
       ]
     },
     {
+      "id": "buyer-to-data-provider-what-are-the-data-recency-refresh-cadence-and-expiry-policies",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "What are the data recency, refresh cadence, and expiry policies?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-what-are-the-sources-of-the-data-being-provided",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "What are the sources of the data being provided?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-what-identifiers-are-present-in-the-data-e-g-cookies-mobile-advertising-ids-alternative-identifiers",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "What identifiers are present in the data (e.g. cookies, mobile advertising IDs, alternative identifiers)?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-data-provider-what-ids-are-present-in-the-data-is-this-cookie-based-data-and-or-maids-mobile-ad-ids",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "What IDs are present in the data? Is this cookie-based data and/or MAIDs (mobile ad IDs)?",
       "tags": [
         "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-what-is-the-age-of-the-data",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "What is the age of the data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-data-provider-what-is-the-audience-match-rate-and-can-it-be-improved",
+      "origin": "Buyer",
+      "destination": "Data Provider",
+      "text": "What is the audience match rate, and can it be improved?",
+      "tags": [
         "data"
       ]
     },
@@ -1811,6 +877,35 @@
       ]
     },
     {
+      "id": "buyer-to-identity-provider-are-user-opt-in-opt-out-preferences-directly-tied-to-the-identifier",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Are user opt-in/opt-out preferences directly tied to the identifier?",
+      "tags": [
+        "consent",
+        "identity"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-can-the-data-be-applied-cross-device-and-if-so-is-the-methodology-deterministic-or-probabilistic",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Can the data be applied cross-device, and if so, is the methodology deterministic or probabilistic?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
       "id": "buyer-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
       "origin": "Buyer",
       "destination": "Identity Provider",
@@ -1860,6 +955,24 @@
       ]
     },
     {
+      "id": "buyer-to-identity-provider-does-the-identifier-provide-addressability-in-cookie-restricted-browsers",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Does the identifier provide addressability in cookie-restricted browsers?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-does-the-identifier-provide-addressability-in-ios-app-environments",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Does the identifier provide addressability in iOS app environments?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
       "id": "buyer-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
       "origin": "Buyer",
       "destination": "Identity Provider",
@@ -1874,6 +987,16 @@
       "origin": "Buyer",
       "destination": "Identity Provider",
       "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?",
       "tags": [
         "identity",
         "data"
@@ -1907,6 +1030,25 @@
       "tags": [
         "identity",
         "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-is-the-identifier-constructed-at-user-level",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Is the identifier constructed at user level?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-is-the-identifier-present-within-connected-tv-ctv-supply",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Is the identifier present within Connected TV (CTV) supply?",
+      "tags": [
+        "identity"
       ]
     },
     {
@@ -1946,12 +1088,30 @@
       ]
     },
     {
+      "id": "buyer-to-identity-provider-what-integrations-exist-across-activation-and-supply-platforms-by-region-country",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "What integrations exist across activation and supply platforms (by region/country)?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
       "id": "buyer-to-identity-provider-what-is-the-availability-and-scale-by-country",
       "origin": "Buyer",
       "destination": "Identity Provider",
       "text": "What is the availability and scale by country?",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "What is the availability and scale of the identifier by country or region?",
+      "tags": [
+        "identity"
       ]
     },
     {
@@ -1970,6 +1130,16 @@
       "text": "What is the timeline of future SSP integrations by region and country?",
       "tags": [
         "data"
+      ]
+    },
+    {
+      "id": "buyer-to-identity-provider-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with",
+      "origin": "Buyer",
+      "destination": "Identity Provider",
+      "text": "Which consent frameworks is the identifier integrated with or compatible with?",
+      "tags": [
+        "consent",
+        "identity"
       ]
     },
     {
@@ -1992,6 +1162,67 @@
       ]
     },
     {
+      "id": "buyer-to-measurement-provider-are-authenticity-and-authorisation-signals-surfaced-transparently-within-reporting-interfaces",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Are authenticity and authorisation signals surfaced transparently within reporting interfaces?",
+      "tags": [
+        "inventory",
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-are-mfa-sites-invalid-traffic-or-fraudulent-resellers-actively-scanned-and-mitigated",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Are MFA sites, invalid traffic, or fraudulent resellers actively scanned and mitigated?",
+      "tags": [
+        "fraud",
+        "inventory"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-are-real-time-data-feeds-available-via-api",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Are real-time data feeds available via API?",
+      "tags": [
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-are-resellers-explicitly-identified-in-reporting-interfaces",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Are resellers explicitly identified in reporting interfaces?",
+      "tags": [
+        "inventory",
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-can-domain-spoofing-be-detected-and-addressed",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Can domain spoofing be detected and addressed?",
+      "tags": [
+        "fraud",
+        "inventory"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-can-log-level-data-be-used-to-reconcile-authorisation-signals-post-auction",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Can log-level data be used to reconcile authorisation signals post-auction?",
+      "tags": [
+        "cost",
+        "inventory",
+        "measurement"
+      ]
+    },
+    {
       "id": "buyer-to-measurement-provider-can-you-identify-fraudulent-audiences-bots-to-specific-supply-sources",
       "origin": "Buyer",
       "destination": "Measurement Provider",
@@ -2008,6 +1239,119 @@
       "text": "Do you provide any data‑level SPO diagnostics (e.g. which data segments contribute most to objectives)?",
       "tags": [
         "spo",
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-how-are-discrepancies-between-platforms-managed",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "How are discrepancies between platforms managed?",
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-how-frequently-is-reporting-data-refreshed-or-pushed-to-dashboards",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "How frequently is reporting data refreshed or pushed to dashboards?",
+      "tags": [
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-how-is-reporting-collected-and-matched-across-platforms",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "How is reporting collected and matched across platforms?",
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-is-a-fraud-free-guarantee-provided",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Is a fraud-free guarantee provided?",
+      "tags": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-is-log-level-reporting-provided",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Is log-level reporting provided?",
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-is-tooling-available-for-performance-diagnostics-e-g-win-rate-analysis-throttling-detection-supply-gap-identification",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Is tooling available for performance diagnostics (e.g. win rate analysis, throttling detection, supply gap identification)?",
+      "tags": [
+        "spo",
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-fraud-detection-tools-are-utilised",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What fraud detection tools are utilised?",
+      "tags": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-level-of-fraud-tolerance-is-defined",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What level of fraud tolerance is defined?",
+      "tags": [
+        "fraud"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-methodology-is-used-for-impression-counting",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What methodology is used for impression counting?",
+      "tags": [
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-reporting-integrations-exist-across-platforms",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What reporting integrations exist across platforms?",
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-reporting-is-available-to-support-supply-path-optimisation-spo",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What reporting is available to support Supply Path Optimisation (SPO)?",
+      "tags": [
+        "spo",
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-which-data-dimensions-can-be-used-for-reconciliation-and-matching",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Which data dimensions can be used for reconciliation and matching?",
+      "tags": [
         "measurement",
         "data"
       ]
@@ -2080,6 +1424,33 @@
       ]
     },
     {
+      "id": "data-provider-to-buyer-for-how-long-is-the-data-retained",
+      "origin": "Data Provider",
+      "destination": "Buyer",
+      "text": "For how long is the data retained?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "data-provider-to-buyer-for-what-purposes-will-the-data-be-used",
+      "origin": "Data Provider",
+      "destination": "Buyer",
+      "text": "For what purposes will the data be used?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "data-provider-to-buyer-how-is-the-data-shared-and-with-which-categories-of-counterparties",
+      "origin": "Data Provider",
+      "destination": "Buyer",
+      "text": "How is the data shared and with which categories of counterparties?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "data-provider-to-buyer-how-long-will-the-data-be-retained",
       "origin": "Data Provider",
       "destination": "Buyer",
@@ -2102,6 +1473,15 @@
       "origin": "Data Provider",
       "destination": "Buyer",
       "text": "Will the data be matched to other data and if so, how?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "data-provider-to-buyer-will-the-data-be-matched-with-other-datasets-and-if-so-how",
+      "origin": "Data Provider",
+      "destination": "Buyer",
+      "text": "Will the data be matched with other datasets, and if so, how?",
       "tags": [
         "data"
       ]
@@ -3156,6 +2536,25 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-are-ads-txt-lines-validated-for-syntax-and-formatting-errors",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are ads.txt lines validated for syntax and formatting errors?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-alerts-generated-when-authorised-seller-status-changes",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are alerts generated when authorised seller status changes?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-are-all-costs-included-in-the-clearing-price-or-are-there-additional-costs-appended",
       "origin": "DSP",
       "destination": "SSP",
@@ -3165,10 +2564,113 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-are-all-costs-included-within-the-clearing-price-or-are-additional-fees-appended",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are all costs included within the clearing price, or are additional fees appended?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-all-intermediaries-accurately-declared-within-the-supplychain-object",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are all intermediaries accurately declared within the SupplyChain Object?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-anomalous-or-non-transparent-supply-paths-automatically-flagged",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are anomalous or non-transparent supply paths automatically flagged?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-any-inventory-attributes-modified-normalised-or-obscured-before-being-passed-downstream",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are any inventory attributes modified, normalised, or obscured before being passed downstream?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-auctions-operated-on-a-first-price-or-second-price-basis",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are auctions operated on a first-price or second-price basis?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-bid-prices-adjusted-due-to-associated-fees",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are bid prices adjusted due to associated fees?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-data-dmp-fees-bundled-within-media-cost-or-charged-separately",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are data/DMP fees bundled within media cost or charged separately?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-discrepancies-between-bid-request-signals-and-ads-txt-entries-monitored-and-reported",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are discrepancies between bid request signals and ads.txt entries monitored and reported?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-duplicate-bid-requests-for-the-same-impression-detected-and-deduplicated",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are duplicate bid requests for the same impression detected and deduplicated?",
+      "tags": [
+        "spo",
+        "inventory"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-are-fees-correlated-with-volume-or-price-or-both",
       "origin": "DSP",
       "destination": "SSP",
       "text": "Are fees correlated with volume or price, or both?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-fees-correlated-with-volume-price-or-both",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are fees correlated with volume, price, or both?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-first-and-or-second-price-auction-flags-respected",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are first- and/or second-price auction flags respected?",
       "tags": [
         "cost"
       ]
@@ -3182,6 +2684,83 @@
         "cost",
         "inventory",
         "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-inconsistencies-between-declared-domain-app-signals-and-actual-traffic-origin-monitored",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are inconsistencies between declared domain/app signals and actual traffic origin monitored?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-inconsistencies-between-schain-sellers-json-and-ads-txt-detected-and-flagged",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are inconsistencies between SChain, Sellers.json, and ads.txt detected and flagged?",
+      "tags": [
+        "ads-txt",
+        "sellers-json",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-indirect-or-reseller-relationships-clearly-identified-and-validated",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are indirect or reseller relationships clearly identified and validated?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-media-fees-applied",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are media fees applied?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-platform-or-technology-fees-applied",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are platform or technology fees applied?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-redistribution-rights-contractually-controlled-and-technically-monitored",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are redistribution rights contractually controlled and technically monitored?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-schain-nodes-programmatically-validated-against-sellers-json-records",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are SChain nodes programmatically validated against Sellers.json records?",
+      "tags": [
+        "sellers-json",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-are-seller-entries-validated-against-corresponding-ads-txt-files",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Are seller entries validated against corresponding ads.txt files?",
+      "tags": [
+        "ads-txt",
+        "inventory"
       ]
     },
     {
@@ -3281,12 +2860,97 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-how-frequently-are-ads-txt-and-app-ads-txt-files-crawled-and-refreshed",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "How frequently are ads.txt and app-ads.txt files crawled and refreshed?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-how-frequently-is-sellers-json-updated",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "How frequently is Sellers.json updated?",
+      "tags": [
+        "sellers-json",
+        "data"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-if-an-ads-txt-file-is-present-and-you-are-not-listed-do-you-reject-inventory",
       "origin": "DSP",
       "destination": "SSP",
       "text": "If an ads.txt file is present and you are not listed, do you reject inventory?",
       "tags": [
         "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-authorisation-confirmed-via-ads-txt-and-or-app-ads-txt",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is authorisation confirmed via ads.txt and/or app-ads.txt?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-bid-caching-applied",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is bid caching applied?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-bid-shading-applied",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is bid shading applied?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-content-level-granularity-e-g-page-section-channel-programme-consistently-provided",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is content-level granularity (e.g. page, section, channel, programme) consistently provided?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-continuous-monitoring-in-place-for-authorisation-compliance-across-inventory",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is continuous monitoring in place for authorisation compliance across inventory?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-historical-versioning-of-ads-txt-changes-tracked",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is historical versioning of ads.txt changes tracked?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-independent-auditing-of-supply-authenticity-conducted",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is independent auditing of supply authenticity conducted?",
+      "tags": [
         "inventory"
       ]
     },
@@ -3311,12 +2975,62 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-is-monitoring-in-place-for-undeclared-or-unauthorised-nodes-within-the-supply-chain",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is monitoring in place for undeclared or unauthorised nodes within the supply chain?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-pricing-presented-as-a-blended-rate-or-broken-down-into-media-technology-and-data-components",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is pricing presented as a blended rate or broken down into media, technology, and data components?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-seller-authorisation-programmatically-checked-against-the-most-recent-ads-txt-file-before-bid-responses-are-accepted",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is seller authorisation programmatically checked against the most recent ads.txt file before bid responses are accepted?",
+      "tags": [
+        "ads-txt",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-sellers-json-supported-and-publicly-accessible",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is Sellers.json supported and publicly accessible?",
+      "tags": [
+        "sellers-json",
+        "inventory"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-is-the-app-id-and-or-bundle-id-passed",
       "origin": "DSP",
       "destination": "SSP",
-      "text": "Is the app ID and / or bundle ID passed?",
+      "text": "Is the app ID and/or bundle ID passed?",
       "tags": [
         "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-the-number-of-bidders-participating-in-an-auction-disclosed",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is the number of bidders participating in an auction disclosed?",
+      "tags": [
+        "cost",
+        "measurement"
       ]
     },
     {
@@ -3326,6 +3040,15 @@
       "text": "Is the number of bidders within the auction disclosed?",
       "tags": [
         "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-the-openrtb-supplychain-object-schain-implemented",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is the OpenRTB SupplyChain Object (SChain) implemented?",
+      "tags": [
+        "inventory"
       ]
     },
     {
@@ -3374,6 +3097,15 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-is-the-top-level-domain-or-full-page-url-passed-in-bid-requests",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is the top-level domain or full page URL passed in bid requests?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-is-the-url-transparent-or-masked",
       "origin": "DSP",
       "destination": "SSP",
@@ -3383,11 +3115,60 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-is-this-classification-consistently-declared-in-bid-requests-e-g-direct-vs-intermediary",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is this classification consistently declared in bid requests (e.g. direct vs intermediary)?",
+      "tags": [
+        "data",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-is-traffic-resold-or-redistributed-to-additional-third-parties",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "Is traffic resold or redistributed to additional third parties?",
+      "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-action-is-taken-if-a-seller-is-not-listed-in-ads-txt-e-g-block-throttle-flag-price-adjust",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What action is taken if a seller is not listed in ads.txt (e.g. block, throttle, flag, price-adjust)?",
+      "tags": [
+        "ads-txt",
+        "cost"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-what-bid-signals-do-you-provide-to-help-identify-video-supply",
       "origin": "DSP",
       "destination": "SSP",
       "text": "What bid signals do you provide to help identify video supply?",
       "tags": [
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-controls-are-in-place-to-prevent-arbitrage-or-inventory-laundering",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What controls are in place to prevent arbitrage or inventory laundering?",
+      "tags": [
+        "fraud",
+        "inventory"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-controls-are-in-place-to-prevent-domain-spoofing",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What controls are in place to prevent domain spoofing?",
+      "tags": [
+        "fraud",
         "inventory"
       ]
     },
@@ -3411,12 +3192,31 @@
       ]
     },
     {
+      "id": "dsp-to-ssp-what-mechanisms-are-in-place-to-prevent-internal-competition-e-g-bidding-against-the-same-demand-source",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What mechanisms are in place to prevent internal competition (e.g. bidding against the same demand source)?",
+      "tags": [
+        "spo",
+        "data"
+      ]
+    },
+    {
       "id": "dsp-to-ssp-what-other-buying-models-can-we-implement-and-can-there-be-loss-notifications-at-scale-avoiding-tech-costs",
       "origin": "DSP",
       "destination": "SSP",
       "text": "What other buying models can we implement, and can there be loss notifications at scale avoiding tech costs?",
       "tags": [
         "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-proportion-of-supply-is-sourced-directly-versus-via-resellers",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What proportion of supply is sourced directly versus via resellers?",
+      "tags": [
+        "inventory"
       ]
     },
     {
@@ -3442,6 +3242,15 @@
       "origin": "DSP",
       "destination": "SSP",
       "text": "What service model is being deployed?",
+      "tags": [
+        "cost"
+      ]
+    },
+    {
+      "id": "dsp-to-ssp-what-service-model-is-deployed",
+      "origin": "DSP",
+      "destination": "SSP",
+      "text": "What service model is deployed?",
       "tags": [
         "cost"
       ]
@@ -3943,6 +3752,26 @@
       ]
     },
     {
+      "id": "seller-to-ssp-are-iab-europe-transparency-and-consent-framework-tcf-signals-read-and-processed-in-accordance-with-the-consent-and-purposes-provided-by-the-user",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "Are IAB Europe Transparency & Consent Framework (TCF) signals read and processed in accordance with the consent and purposes provided by the user?",
+      "tags": [
+        "consent",
+        "gdpr"
+      ]
+    },
+    {
+      "id": "seller-to-ssp-are-requests-lacking-valid-consent-monetised",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "Are requests lacking valid consent monetised?",
+      "tags": [
+        "consent",
+        "gdpr"
+      ]
+    },
+    {
       "id": "seller-to-ssp-can-a-pmp-be-setup-or-is-the-ssp-required",
       "origin": "Seller",
       "destination": "SSP",
@@ -3970,6 +3799,15 @@
       ]
     },
     {
+      "id": "seller-to-ssp-can-specific-ad-technologies-be-blocked",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "Can specific ad technologies be blocked?",
+      "tags": [
+        "fraud"
+      ]
+    },
+    {
       "id": "seller-to-ssp-do-i-pay-media-fees-here",
       "origin": "Seller",
       "destination": "SSP",
@@ -3994,6 +3832,16 @@
       "text": "Do you know if the advertiser is being charged any margin?",
       "tags": [
         "cost"
+      ]
+    },
+    {
+      "id": "seller-to-ssp-how-are-opt-outs-handled-and-within-what-timeframe-are-they-processed",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "How are opt-outs handled, and within what timeframe are they processed?",
+      "tags": [
+        "consent",
+        "gdpr"
       ]
     },
     {
@@ -4054,6 +3902,16 @@
       ]
     },
     {
+      "id": "seller-to-ssp-is-third-party-verification-supported-across-environments-and-are-industry-standards-such-as-open-measurement-sdk-omsdk-implemented-where-relevant",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "Is third-party verification supported across environments, and are industry standards such as Open Measurement SDK (OMSDK) implemented where relevant?",
+      "tags": [
+        "measurement",
+        "fraud"
+      ]
+    },
+    {
       "id": "seller-to-ssp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
       "origin": "Seller",
       "destination": "SSP",
@@ -4091,6 +3949,15 @@
       "tags": [
         "ads-txt",
         "inventory"
+      ]
+    },
+    {
+      "id": "seller-to-ssp-what-measures-are-in-place-to-prevent-malware",
+      "origin": "Seller",
+      "destination": "SSP",
+      "text": "What measures are in place to prevent malware?",
+      "tags": [
+        "fraud"
       ]
     },
     {
@@ -4681,6 +4548,15 @@
       ]
     },
     {
+      "id": "ssp-to-measurement-provider-can-high-carbon-supply-and-or-demand-paths-be-identified-and-reduced",
+      "origin": "SSP",
+      "destination": "Measurement Provider",
+      "text": "Can high-carbon supply and/or demand paths be identified and reduced?",
+      "tags": [
+        "carbon"
+      ]
+    },
+    {
       "id": "ssp-to-measurement-provider-do-you-offer-a-pre-bid-integration-so-that-your-data-can-be-used-to-block-an-impression-before-it-s-served-to-prevent-a-brand-safety-violation-or-is-it-only-post-bid-reporting",
       "origin": "SSP",
       "destination": "Measurement Provider",
@@ -4729,6 +4605,16 @@
       "tags": [
         "measurement",
         "data"
+      ]
+    },
+    {
+      "id": "ssp-to-measurement-provider-is-carbon-emissions-reporting-provided",
+      "origin": "SSP",
+      "destination": "Measurement Provider",
+      "text": "Is carbon emissions reporting provided?",
+      "tags": [
+        "carbon",
+        "measurement"
       ]
     },
     {
