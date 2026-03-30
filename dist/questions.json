@@ -161,6 +161,11 @@
       "destination": "Identity Provider"
     },
     {
+      "id": "dsp-to-measurement-provider",
+      "origin": "DSP",
+      "destination": "Measurement Provider"
+    },
+    {
       "id": "dsp-to-seller",
       "origin": "DSP",
       "destination": "Seller"
@@ -2554,6 +2559,15 @@
       ]
     },
     {
+      "id": "dsp-to-measurement-provider-do-you-provide-any-measurement-services-white-label",
+      "origin": "DSP",
+      "destination": "Measurement Provider",
+      "text": "Do you provide any measurement services white label?",
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
       "id": "dsp-to-seller-are-you-reading-iab-europe-transparency-and-consent-framework-signals-and-managing-the-data-according-to-the-consent-and-purpose-given-by-the-user",
       "origin": "DSP",
       "destination": "Seller",
@@ -3765,7 +3779,7 @@
       "id": "seller-to-measurement-provider-how-can-we-understand-a-buyer-s-measurement-requirements",
       "origin": "Seller",
       "destination": "Measurement Provider",
-      "text": "How can we understand a buyer's  measurement requirements?",
+      "text": "How can we understand a buyer's measurement requirements?",
       "tags": [
         "measurement",
         "inventory"
@@ -3777,6 +3791,7 @@
       "destination": "Measurement Provider",
       "text": "How can we understand our inventory’s classifications?",
       "tags": [
+        "measurement",
         "inventory"
       ]
     },
@@ -4072,6 +4087,15 @@
       "text": "Is your DSP providing you with bid shading capabilities?",
       "tags": [
         "cost"
+      ]
+    },
+    {
+      "id": "ssp-to-buyer-performance-diagnostics-tooling",
+      "origin": "SSP",
+      "destination": "Buyer",
+      "text": "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?",
+      "tags": [
+        "spo"
       ]
     },
     {
@@ -4586,29 +4610,20 @@
       ]
     },
     {
-      "id": "ssp-to-measurement-provider-can-high-carbon-supply-and-or-demand-paths-be-identified-and-reduced",
-      "origin": "SSP",
-      "destination": "Measurement Provider",
-      "text": "Can high-carbon supply and/or demand paths be identified and reduced?",
-      "tags": [
-        "carbon"
-      ]
-    },
-    {
       "id": "ssp-to-measurement-provider-do-you-offer-a-pre-bid-integration-so-that-your-data-can-be-used-to-block-an-impression-before-it-s-served-to-prevent-a-brand-safety-violation-or-is-it-only-post-bid-reporting",
       "origin": "SSP",
       "destination": "Measurement Provider",
-      "text": "Do you offer a Pre-Bid integration so that your data can be used to block an impression before it's served to prevent a brand safety violation, or is it only post-bid reporting?",
+      "text": "Do you offer a pre-bid integration so that your data can be used to block an impression before it's served to prevent a brand safety violation, or is it only post-bid reporting?",
       "tags": [
         "measurement",
         "data"
       ]
     },
     {
-      "id": "ssp-to-measurement-provider-do-you-provide-carbon-emissions-reporting-that-can-help-us-identify-and-reduce-high-carbon-paths-in-our-supply",
+      "id": "ssp-to-measurement-provider-high-carbon-paths",
       "origin": "SSP",
       "destination": "Measurement Provider",
-      "text": "Do you provide Carbon Emissions reporting that can help us identify and reduce 'high-carbon' paths in our supply?",
+      "text": "Can you help us identify and reduce high-carbon supply and demand paths?",
       "tags": [
         "carbon",
         "measurement"
@@ -4639,7 +4654,7 @@
       "id": "ssp-to-measurement-provider-how-frequently-is-data-pushed-to-our-dashboard-do-you-offer-real-time-data-feeds-via-api",
       "origin": "SSP",
       "destination": "Measurement Provider",
-      "text": "How frequently is data pushed to our dashboard? Do you offer Real-Time Data Feeds via API?",
+      "text": "How frequently is data pushed to our dashboard? Do you offer real-time data feeds via API?",
       "tags": [
         "measurement",
         "data"

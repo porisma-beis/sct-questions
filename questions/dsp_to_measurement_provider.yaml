@@ -1,0 +1,8 @@
+id: dsp-to-measurement-provider
+origin: "DSP"
+destination: "Measurement Provider"
+questions:
+  - id: dsp-to-measurement-provider-do-you-provide-any-measurement-services-white-label
+    text: "Do you provide any measurement services white label?"
+    tags: ["measurement"]
+ 

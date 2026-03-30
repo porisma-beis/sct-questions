@@ -3,8 +3,8 @@ origin: "Seller"
 destination: "Measurement Provider"
 questions:
   - id: seller-to-measurement-provider-how-can-we-understand-a-buyer-s-measurement-requirements
-    text: "How can we understand a buyer's  measurement requirements?"
+    text: "How can we understand a buyer's measurement requirements?"
     tags: ["measurement","inventory"]
   - id: seller-to-measurement-provider-how-can-we-understand-our-inventory-s-classifications
     text: "How can we understand our inventory’s classifications?"
-    tags: ["inventory"]
+    tags: ["measurement","inventory"]

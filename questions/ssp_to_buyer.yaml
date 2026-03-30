@@ -32,3 +32,6 @@ questions:
   - id: ssp-to-buyer-what-are-the-most-sought-after-formats
     text: "What are the most sought after formats?"
     tags: ["cost"]
+  - id: ssp-to-buyer-performance-diagnostics-tooling
+    text: "Do you need tooling for performance diagnostics (win rate, throttling, supply gaps)?"
+    tags: ["spo"]
