@@ -487,6 +487,15 @@
       ]
     },
     {
+      "id": "any-stakeholder-to-dmp-how-was-the-data-collected-and-the-audience-profiled",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How was the data collected and the audience profiled?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "any-stakeholder-to-dmp-how-will-the-data-be-used",
       "origin": "Any Stakeholder",
       "destination": "DMP",
@@ -537,6 +546,25 @@
       "origin": "Any Stakeholder",
       "destination": "DMP",
       "text": "Is this first-, second-, or third-party data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
+      "tags": [
+        "gdpr",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-what-are-your-match-rates-to-common-activation-platforms",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "What are your match rates to common activation platforms?",
       "tags": [
         "data"
       ]
@@ -1538,34 +1566,6 @@
       "origin": "DMP",
       "destination": "Buyer",
       "text": "Will the data be shared with additional parties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-how-was-the-data-collected-and-the-audience-profiled",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "How was the data collected and the audience profiled?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-what-are-your-match-rates-to-common-activation-platforms",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "What are your match rates to common activation platforms?",
       "tags": [
         "data"
       ]

@@ -2,12 +2,3 @@ id: dmp-to-dmp
 origin: "DMP"
 destination: "DMP"
 questions:
-  - id: dmp-to-dmp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation
-    text: "Under which legal basis are you storing cookies in line with GDPR and national legislation?"
-    tags: ["gdpr","data"]
-  - id: dmp-to-dmp-what-are-your-match-rates-to-common-activation-platforms
-    text: "What are your match rates to common activation platforms?"
-    tags: ["data"]
-  - id: dmp-to-dmp-how-was-the-data-collected-and-the-audience-profiled
-    text: "How was the data collected and the audience profiled?"
-    tags: ["data"]
