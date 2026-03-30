@@ -11,24 +11,6 @@ questions:
   - id: dsp-to-ssp-is-it-possible-to-generate-loss-notifications-for-programmatic-guaranteed-to-prove-its-working
     text: "Is it possible to generate loss notifications for programmatic guaranteed to prove its working?"
     tags: ["cost","inventory"]
-  - id: dsp-to-ssp-is-the-number-of-bidders-within-the-auction-disclosed
-    text: "Is the number of bidders within the auction disclosed?"
-    tags: ["cost"]
-  - id: dsp-to-ssp-are-all-costs-included-in-the-clearing-price-or-are-there-additional-costs-appended
-    text: "Are all costs included in the clearing price or are there additional costs appended?"
-    tags: ["cost"]
-  - id: dsp-to-ssp-do-i-pay-media-fees-here
-    text: "Do I pay media fees here?"
-    tags: ["cost"]
-  - id: dsp-to-ssp-do-i-pay-platform-fees-here
-    text: "Do I pay platform fees here?"
-    tags: ["cost"]
-  - id: dsp-to-ssp-are-fees-correlated-with-volume-or-price-or-both
-    text: "Are fees correlated with volume or price, or both?"
-    tags: ["cost"]
-  - id: dsp-to-ssp-what-service-model-is-being-deployed
-    text: "What service model is being deployed?"
-    tags: ["cost"]
   - id: dsp-to-ssp-what-is-the-inventory-source-e-g-tags-header-bidding-or-server-to-server-s2
     text: "What is the inventory source, e.g. tags, header bidding or server to server? S2"
     tags: ["inventory","data"]
@@ -37,9 +19,6 @@ questions:
     tags: ["cost","inventory","data"]
   - id: dsp-to-ssp-which-openrtb-version-is-supported
     text: "Which OpenRTB version is supported?"
-    tags: ["inventory"]
-  - id: dsp-to-ssp-is-the-top-level-domain-or-complete-page-url-passed-page-level-detail
-    text: "Is the top-level domain or complete page URL passed (page level detail)?"
     tags: ["inventory"]
   - id: dsp-to-ssp-can-i-filter-bid-requests-by-geo
     text: "Can I filter bid requests by Geo?"
@@ -53,24 +32,12 @@ questions:
   - id: dsp-to-ssp-is-inventory-throttled-based-on-geos-gdpr-or-cookies-or-any-parameters-not-present
     text: "Is inventory throttled based on Geos, GDPR or cookies or any parameters not present?"
     tags: ["gdpr","inventory"]
-  - id: dsp-to-ssp-what-proportion-of-your-supply-is-sourced-directly-from-the-publisher
-    text: "What proportion of your supply is sourced directly from the Publisher?"
-    tags: ["inventory"]
-  - id: dsp-to-ssp-what-proportion-of-your-supply-is-sourced-from-resellers
-    text: "What proportion of your supply is sourced from resellers?"
-    tags: ["inventory"]
   - id: dsp-to-ssp-are-you-authorised-in-the-publishers-ads-txt-file
     text: "Are you authorised in the publishers ads.txt file?"
     tags: ["ads-txt","inventory"]
   - id: dsp-to-ssp-if-an-ads-txt-file-is-present-and-you-are-not-listed-do-you-reject-inventory
     text: "If an ads.txt file is present and you are not listed, do you reject inventory?"
     tags: ["ads-txt","inventory"]
-  - id: dsp-to-ssp-are-you-bid-shading
-    text: "Are you bid shading?"
-    tags: ["cost","inventory"]
-  - id: dsp-to-ssp-are-you-bid-caching
-    text: "Are you bid caching?"
-    tags: ["cost","inventory"]
   - id: dsp-to-ssp-do-you-represent-any-unique-supply-sources-if-so-for-which-media
     text: "Do you represent any unique supply sources? If so, for which media?"
     tags: ["data","inventory"]

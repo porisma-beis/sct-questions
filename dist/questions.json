@@ -56,6 +56,16 @@
       "destination": "Data Provider"
     },
     {
+      "id": "any-stakeholder-to-dmp",
+      "origin": "Any Stakeholder",
+      "destination": "DMP"
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider"
+    },
+    {
       "id": "buyer-to-curator",
       "origin": "Buyer",
       "destination": "Curator"
@@ -253,6 +263,62 @@
   ],
   "questions": [
     {
+      "id": "any-stakeholder-to-data-provider-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-how-can-you-protect-against-audience-profiling-by-third-parties",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "How can you protect against audience profiling by third-parties?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-how-do-i-know-the-data-i-request-is-what-i-am-getting",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "How do I know the data I request is what I am getting?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-how-is-offline-data-converted-or-onboarded-into-online-environments",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "How is offline data converted or onboarded into online environments?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-how-is-the-advertiser-converting-offline-data-to-online-data",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "How is the advertiser converting offline data to online data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "any-stakeholder-to-data-provider-how-is-this-data-refreshed-corrected-or-removed-when-it-changes",
       "origin": "Any Stakeholder",
       "destination": "Data Provider",
@@ -260,6 +326,62 @@
       "tags": [
         "data",
         "measurement"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-if-independently-sourced-what-are-the-original-sources",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "If independently sourced, what are the original sources?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Is the data modelled, and if so, what modelling has been applied?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-is-the-data-publisher-data-or-independently-sourced",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Is the data publisher data or independently sourced?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-is-this-data-collected-in-a-gdpr-compliant-way",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Is this data collected in a GDPR-compliant way?",
+      "tags": [
+        "gdpr",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-is-this-first-second-or-third-party-data",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "Is this first-, second-, or third-party data?",
+      "tags": [
+        "data"
       ]
     },
     {
@@ -273,11 +395,311 @@
       ]
     },
     {
+      "id": "any-stakeholder-to-data-provider-what-are-the-sources-of-the-data-being-provided",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "What are the sources of the data being provided?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
       "id": "any-stakeholder-to-data-provider-what-categories-of-data-do-you-collect-and-make-available",
       "origin": "Any Stakeholder",
       "destination": "Data Provider",
       "text": "What categories of data do you collect and make available?",
       "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-what-is-the-age-of-the-data",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "What is the age of the data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-data-provider-what-is-the-audience-match-rate-and-can-it-be-improved",
+      "origin": "Any Stakeholder",
+      "destination": "Data Provider",
+      "text": "What is the audience match rate, and can it be improved?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
+      "tags": [
+        "cost",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-do-i-know-the-data-i-request-is-what-i-am-getting",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How do I know the data I request is what I am getting?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-has-offline-data-been-onboarded-into-online-environments",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How has offline data been onboarded into online environments?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-long-will-the-data-be-retained",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How long will the data be retained?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-old-is-the-data",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How old is the data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-how-will-the-data-be-used",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "How will the data be used?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-if-independently-sourced-what-are-the-original-sources",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "If independently sourced, what are the original sources?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Is the data modelled, and if so, what modelling has been applied?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-is-the-data-publisher-data-or-independently-sourced",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Is the data publisher data or independently sourced?",
+      "tags": [
+        "inventory",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-is-this-first-second-or-third-party-data",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Is this first-, second-, or third-party data?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-will-the-data-be-matched-to-other-data-and-if-so-how",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Will the data be matched to other data and if so, how?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-dmp-will-the-data-be-shared-with-additional-parties",
+      "origin": "Any Stakeholder",
+      "destination": "DMP",
+      "text": "Will the data be shared with additional parties?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Can you provide a list of publishers integrated with a first-party addressability solution?",
+      "tags": [
+        "identity",
+        "inventory"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?",
+      "tags": [
+        "consent",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-is-the-identifier-constructed-at-user-level",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Is the identifier constructed at user level?",
+      "tags": [
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-is-the-identifier-present-within-connected-tv-ctv-supply",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Is the identifier present within Connected TV (CTV) supply?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "What current SSP integrations do you have, by region and country?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-what-dsp-integrations-are-there",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "What DSP integrations are there?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "What is the availability and scale of the identifier by country or region?",
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "What is the timeline of future SSP integrations by region and country?",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Which consent frameworks is the identifier integrated with or compatible with?",
+      "tags": [
+        "consent",
+        "identity"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
+      "origin": "Any Stakeholder",
+      "destination": "Identity Provider",
+      "text": "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?",
+      "tags": [
+        "identity",
         "data"
       ]
     },
@@ -330,26 +752,6 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-are-you-passing-iab-europe-transparency-and-consent-framework-consent-signals-with-the-data",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Are you passing IAB Europe Transparency & Consent Framework consent signals with the data?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-can-you-demonstrate-the-consent-mechanism-used-and-does-it-meet-your-data-collection-requirement",
       "origin": "Buyer",
       "destination": "Data Provider",
@@ -398,79 +800,6 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-do-i-know-the-data-i-request-is-what-i-am-getting",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How do I know the data I request is what I am getting?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-frequently-is-the-data-updated",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How frequently is the data updated?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-has-the-offline-data-been-onboarded-online",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How has the offline data been onboarded online?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-is-it-verified-that-the-requested-data-corresponds-to-what-is-delivered",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How is it verified that the requested data corresponds to what is delivered?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-is-offline-data-converted-or-onboarded-into-online-environments",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How is offline data converted or onboarded into online environments?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-often-is-the-data-updated",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How often is the data updated?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-how-old-is-the-data",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "How old is the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-how-unique-is-the-data-and-to-what-extent-is-it-widely-available-or-bid-upon",
       "origin": "Buyer",
       "destination": "Data Provider",
@@ -489,37 +818,10 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-if-independently-sourced-what-are-the-original-sources",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "If independently sourced, what are the original sources?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-if-independently-sourced-where-was-the-data-sourced",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "If independently sourced, where was the data sourced?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-if-modelled-what-modelling-methodology-has-been-applied",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "If modelled, what modelling methodology has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-a-data-cleaning-or-validation-process-in-place",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is a data cleaning or validation process in place?",
       "tags": [
         "data"
       ]
@@ -535,33 +837,6 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-the-data-classified-as-first-second-or-third-party-data",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is the data classified as first-, second-, or third-party data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed-if-extrapolated-then-what-size-was-the-base-group",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed, if extrapolated then what size was the base group)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-is-the-data-declared-provided-directly-by-users-observed-based-on-behaviour-or-modelled-extrapolated",
       "origin": "Buyer",
       "destination": "Data Provider",
@@ -571,48 +846,10 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is the data modelled & if so, what modelling has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-the-data-publisher-data-or-independently-sourced",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is the data publisher data or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-the-data-sourced-directly-from-a-publisher-media-owner-or-independently-sourced",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is the data sourced directly from a publisher/media owner or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-is-there-any-data-cleaning-process-in-place-e-g-if-a-cookie-id-is-not-part-of-a-segment-how-fast-will-it-be-removed-for-example-a-customer-buys-a-product-already",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "Is there any data cleaning process in place e.g. if a cookie/ID is not part of a segment, how fast will it be removed (for example, a customer buys a product already)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-is-this-first-second-or-third-party-data",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "Is this first, second or third-party data?",
       "tags": [
         "data"
       ]
@@ -637,47 +874,10 @@
       ]
     },
     {
-      "id": "buyer-to-data-provider-what-are-the-sources-of-the-data-being-provided",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "What are the sources of the data being provided?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-data-provider-what-identifiers-are-present-in-the-data-e-g-cookies-mobile-advertising-ids-alternative-identifiers",
       "origin": "Buyer",
       "destination": "Data Provider",
       "text": "What identifiers are present in the data (e.g. cookies, mobile advertising IDs, alternative identifiers)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-what-ids-are-present-in-the-data-is-this-cookie-based-data-and-or-maids-mobile-ad-ids",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "What IDs are present in the data? Is this cookie-based data and/or MAIDs (mobile ad IDs)?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-what-is-the-age-of-the-data",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "What is the age of the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-data-provider-what-is-the-audience-match-rate-and-can-it-be-improved",
-      "origin": "Buyer",
-      "destination": "Data Provider",
-      "text": "What is the audience match rate, and can it be improved?",
       "tags": [
         "data"
       ]
@@ -689,16 +889,6 @@
       "text": "Are you passing IAB Europe Transparency & Consent Framework consent signals with the data?",
       "tags": [
         "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
-      "tags": [
-        "identity",
         "data"
       ]
     },
@@ -742,34 +932,6 @@
       ]
     },
     {
-      "id": "buyer-to-dmp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-how-do-i-know-the-data-i-request-is-what-i-am-getting",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "How do I know the data I request is what I am getting?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-how-has-the-offline-data-been-onboarded-online",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "How has the offline data been onboarded online?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-dmp-how-often-is-the-data-updated",
       "origin": "Buyer",
       "destination": "DMP",
@@ -779,74 +941,10 @@
       ]
     },
     {
-      "id": "buyer-to-dmp-how-old-is-the-data",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "How old is the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-if-independently-sourced-where-was-the-data-sourced",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "If independently sourced, where was the data sourced?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed-if-extrapolated-then-what-size-was-the-base-group",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed, if extrapolated then what size was the base group)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Is the data modelled & if so, what modelling has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-is-the-data-publisher-data-or-independently-sourced",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Is the data publisher data or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
       "id": "buyer-to-dmp-is-there-any-data-cleaning-process-in-place-e-g-if-a-cookie-id-is-not-part-of-a-segment-how-fast-will-it-be-removed-for-example-a-customer-buys-a-product-already",
       "origin": "Buyer",
       "destination": "DMP",
       "text": "Is there any data cleaning process in place e.g. if a cookie/ID is not part of a segment, how fast will it be removed (for example, a customer buys a product already)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-dmp-is-this-first-second-or-third-party-data",
-      "origin": "Buyer",
-      "destination": "DMP",
-      "text": "Is this first, second or third-party data?",
       "tags": [
         "data"
       ]
@@ -920,16 +1018,6 @@
       ]
     },
     {
-      "id": "buyer-to-identity-provider-are-user-opt-in-opt-out-preferences-directly-tied-to-the-identifier",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Are user opt-in/opt-out preferences directly tied to the identifier?",
-      "tags": [
-        "consent",
-        "identity"
-      ]
-    },
-    {
       "id": "buyer-to-identity-provider-can-the-data-be-applied-cross-device-and-if-so-is-the-methodology-deterministic-or-probabilistic",
       "origin": "Buyer",
       "destination": "Identity Provider",
@@ -940,266 +1028,10 @@
       ]
     },
     {
-      "id": "buyer-to-identity-provider-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-can-you-explain-how-the-solution-works-technically-or-provide-a-flow-diagram",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Can you explain how the solution works technically or provide a flow diagram?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-can-you-list-the-consent-frameworks-your-id-solution-is-integrated-or-compatible-with",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Can you list the consent frameworks your ID solution is integrated or compatible with?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Can you provide a list of publishers integrated with a first-party addressability solution?",
-      "tags": [
-        "identity",
-        "inventory"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-does-the-identifier-provide-addressability-in-cookie-restricted-browsers",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Does the identifier provide addressability in cookie-restricted browsers?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-does-the-identifier-provide-addressability-in-ios-app-environments",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Does the identifier provide addressability in iOS app environments?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-creation-of-your-id-dependent-on-users-providing-personally-identifiable-information-pii-email-phone-number-address-etc",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the creation of your ID dependent on users providing personally identifiable information (PII)? (email, phone number, address, etc.)",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-id-present-in-ctv-supply-if-yes",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the ID present in CTV supply? If yes:",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-id-user-level",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the ID user-level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-identifier-constructed-at-user-level",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the identifier constructed at user level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-is-the-identifier-present-within-connected-tv-ctv-supply",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Is the identifier present within Connected TV (CTV) supply?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
       "id": "buyer-to-identity-provider-what-are-the-differentiators-of-the-id-compared-to-others-in-the-marketplace",
       "origin": "Buyer",
       "destination": "Identity Provider",
       "text": "What are the differentiators of the ID compared to others in the marketplace?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-are-the-primary-benefits-of-the-id",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What are the primary benefits of the ID?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What current SSP integrations do you have, by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-dsp-integrations-are-there",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What DSP integrations are there?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-integrations-exist-across-activation-and-supply-platforms-by-region-country",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What integrations exist across activation and supply platforms (by region/country)?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-is-the-availability-and-scale-by-country",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What is the availability and scale by country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What is the availability and scale of the identifier by country or region?",
-      "tags": [
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-is-the-id-s-value-proposition-statement",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What is the ID’s value proposition statement?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "What is the timeline of future SSP integrations by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Which consent frameworks is the identifier integrated with or compatible with?",
-      "tags": [
-        "consent",
-        "identity"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "buyer-to-identity-provider-with-what-ssps",
-      "origin": "Buyer",
-      "destination": "Identity Provider",
-      "text": "With what SSPs?",
       "tags": [
         "data"
       ]
@@ -1539,42 +1371,6 @@
       ]
     },
     {
-      "id": "data-provider-to-dmp-how-long-will-the-data-be-retained",
-      "origin": "Data Provider",
-      "destination": "DMP",
-      "text": "How long will the data be retained?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "data-provider-to-dmp-how-will-the-data-be-used",
-      "origin": "Data Provider",
-      "destination": "DMP",
-      "text": "How will the data be used?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "data-provider-to-dmp-will-the-data-be-matched-to-other-data-and-if-so-how",
-      "origin": "Data Provider",
-      "destination": "DMP",
-      "text": "Will the data be matched to other data and if so, how?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "data-provider-to-dmp-will-the-data-be-shared-with-additional-parties",
-      "origin": "Data Provider",
-      "destination": "DMP",
-      "text": "Will the data be shared with additional parties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "data-provider-to-dsp-how-long-will-the-data-be-retained",
       "origin": "Data Provider",
       "destination": "DSP",
@@ -1747,28 +1543,10 @@
       ]
     },
     {
-      "id": "dmp-to-dmp-how-long-will-the-data-be-retained",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "How long will the data be retained?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "dmp-to-dmp-how-was-the-data-collected-and-the-audience-profiled",
       "origin": "DMP",
       "destination": "DMP",
       "text": "How was the data collected and the audience profiled?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-how-will-the-data-be-used",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "How will the data be used?",
       "tags": [
         "data"
       ]
@@ -1788,24 +1566,6 @@
       "origin": "DMP",
       "destination": "DMP",
       "text": "What are your match rates to common activation platforms?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-will-the-data-be-matched-to-other-data-and-if-so-how",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "Will the data be matched to other data and if so, how?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dmp-to-dmp-will-the-data-be-shared-with-additional-parties",
-      "origin": "DMP",
-      "destination": "DMP",
-      "text": "Will the data be shared with additional parties?",
       "tags": [
         "data"
       ]
@@ -2013,68 +1773,12 @@
       ]
     },
     {
-      "id": "dsp-to-data-provider-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-data-provider-has-the-publisher-approved-data-usage-sharing-with-buy-side-and-is-there-an-indicator-of-this",
       "origin": "DSP",
       "destination": "Data Provider",
       "text": "Has the publisher approved data usage / sharing with buy-side and is there an indicator of this?",
       "tags": [
         "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-how-do-i-know-the-data-i-request-is-what-i-m-getting",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "How do I know the data I request is what I’m getting?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-how-has-the-offline-data-been-onboarded-to-online",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "How has the offline data been onboarded to online?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-how-old-is-the-data",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "How old is the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-if-independently-sourced-where-was-the-data-sourced",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "If independently sourced, where was the data sourced?",
-      "tags": [
         "data"
       ]
     },
@@ -2089,67 +1793,12 @@
       ]
     },
     {
-      "id": "dsp-to-data-provider-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Is the data modelled and if so, what modelling has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-is-the-data-publisher-data-or-independently-sourced",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Is the data publisher data or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-is-this-first-second-or-third-party-data",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "Is this first, second, or third-party data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-data-provider-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
       "origin": "DSP",
       "destination": "Data Provider",
       "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
       "tags": [
         "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-data-provider-what-is-the-audience-match-rate-can-this-be-improved",
-      "origin": "DSP",
-      "destination": "Data Provider",
-      "text": "What is the audience match rate? Can this be improved?",
-      "tags": [
         "data"
       ]
     },
@@ -2182,16 +1831,6 @@
       ]
     },
     {
-      "id": "dsp-to-dmp-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Can the data be applied cross-device? If so, is this deterministic or probabilistic?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-dmp-do-i-pay-media-fees-here",
       "origin": "DSP",
       "destination": "DMP",
@@ -2220,67 +1859,12 @@
       ]
     },
     {
-      "id": "dsp-to-dmp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "How am I being charged for this data, independently to media or is it bundled with media?",
-      "tags": [
-        "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-how-do-i-know-the-data-i-request-is-what-i-m-getting",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "How do I know the data I request is what I’m getting?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-how-has-the-offline-data-been-onboarded-to-online",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "How has the offline data been onboarded to online?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-how-old-is-the-data",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "How old is the data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-if-independently-sourced-where-was-the-data-sourced",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "If independently sourced, where was the data sourced?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-dmp-is-do-not-track-dnt-being-respected",
       "origin": "DSP",
       "destination": "DMP",
       "text": "Is do not track (DNT) being respected?",
       "tags": [
         "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Is it local market data (e.g. regional relevance, local culture, consumption habits)?",
-      "tags": [
         "data"
       ]
     },
@@ -2295,59 +1879,12 @@
       ]
     },
     {
-      "id": "dsp-to-dmp-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed)?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-is-the-data-modelled-and-if-so-what-modelling-has-been-applied",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Is the data modelled and if so, what modelling has been applied?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-is-the-data-publisher-data-or-independently-sourced",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Is the data publisher data or independently sourced?",
-      "tags": [
-        "inventory",
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-dmp-is-the-number-of-bidders-within-the-auction-disclosed",
       "origin": "DSP",
       "destination": "DMP",
       "text": "Is the number of bidders within the auction disclosed?",
       "tags": [
         "cost"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-is-this-first-second-or-third-party-data",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Is this first, second, or third-party data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-dmp-under-which-legal-basis-are-you-storing-cookies-in-line-with-gdpr-and-national-legislation",
-      "origin": "DSP",
-      "destination": "DMP",
-      "text": "Under which legal basis are you storing cookies in line with GDPR and national legislation?",
-      "tags": [
-        "gdpr",
-        "data"
       ]
     },
     {
@@ -2378,182 +1915,10 @@
       ]
     },
     {
-      "id": "dsp-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-can-you-explain-how-the-solution-works-technically-or-provide-a-flow-diagram",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Can you explain how the solution works technically or provide a flow diagram?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-can-you-list-the-consent-frameworks-your-id-solution-is-integrated-or-compatible-with",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Can you list the consent frameworks your ID solution is integrated or compatible with?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Can you provide a list of publishers integrated with a first-party addressability solution?",
-      "tags": [
-        "identity",
-        "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-is-the-creation-of-your-id-dependent-on-users-providing-personally-identifiable-information-pii-email-phone-number-address-etc",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Is the creation of your ID dependent on users providing personally identifiable information (PII)? (email, phone number, address, etc.)",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-is-the-id-present-in-ctv-supply-if-yes",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Is the ID present in CTV supply? If yes:",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-is-the-id-user-level",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Is the ID user-level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-are-the-differentiators-of-the-id-compared-to-others-in-the-marketplace",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What are the differentiators of the ID compared to others in the marketplace?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-are-the-primary-benefits-of-the-id",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What are the primary benefits of the ID?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What current SSP integrations do you have, by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-dsp-integrations-are-there",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What DSP integrations are there?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-is-the-availability-and-scale-by-country",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What is the availability and scale by country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "dsp-to-identity-provider-what-is-the-id-s-value-proposition-statement",
       "origin": "DSP",
       "destination": "Identity Provider",
       "text": "What is the ID’s value proposition statement?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "What is the timeline of future SSP integrations by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "dsp-to-identity-provider-with-what-ssps",
-      "origin": "DSP",
-      "destination": "Identity Provider",
-      "text": "With what SSPs?",
       "tags": [
         "data"
       ]
@@ -2604,15 +1969,6 @@
       "text": "Are alerts generated when authorised seller status changes?",
       "tags": [
         "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-are-all-costs-included-in-the-clearing-price-or-are-there-additional-costs-appended",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Are all costs included in the clearing price or are there additional costs appended?",
-      "tags": [
-        "cost"
       ]
     },
     {
@@ -2698,15 +2054,6 @@
       "tags": [
         "spo",
         "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-are-fees-correlated-with-volume-or-price-or-both",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Are fees correlated with volume or price, or both?",
-      "tags": [
-        "cost"
       ]
     },
     {
@@ -2826,26 +2173,6 @@
       ]
     },
     {
-      "id": "dsp-to-ssp-are-you-bid-caching",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Are you bid caching?",
-      "tags": [
-        "cost",
-        "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-are-you-bid-shading",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Are you bid shading?",
-      "tags": [
-        "cost",
-        "inventory"
-      ]
-    },
-    {
       "id": "dsp-to-ssp-can-i-filter-bid-requests-by-geo",
       "origin": "DSP",
       "destination": "SSP",
@@ -2861,24 +2188,6 @@
       "text": "Can I run a blacklist or whitelist?",
       "tags": [
         "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-do-i-pay-media-fees-here",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Do I pay media fees here?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-do-i-pay-platform-fees-here",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Do I pay platform fees here?",
-      "tags": [
-        "cost"
       ]
     },
     {
@@ -3086,15 +2395,6 @@
       ]
     },
     {
-      "id": "dsp-to-ssp-is-the-number-of-bidders-within-the-auction-disclosed",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Is the number of bidders within the auction disclosed?",
-      "tags": [
-        "cost"
-      ]
-    },
-    {
       "id": "dsp-to-ssp-is-the-openrtb-supplychain-object-schain-implemented",
       "origin": "DSP",
       "destination": "SSP",
@@ -3135,15 +2435,6 @@
       "origin": "DSP",
       "destination": "SSP",
       "text": "Is the supply VPAID or VAST? Which version of VAST?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-is-the-top-level-domain-or-complete-page-url-passed-page-level-detail",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "Is the top-level domain or complete page URL passed (page level detail)?",
       "tags": [
         "inventory"
       ]
@@ -3269,33 +2560,6 @@
       "text": "What proportion of supply is sourced directly versus via resellers?",
       "tags": [
         "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-what-proportion-of-your-supply-is-sourced-directly-from-the-publisher",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "What proportion of your supply is sourced directly from the Publisher?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-what-proportion-of-your-supply-is-sourced-from-resellers",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "What proportion of your supply is sourced from resellers?",
-      "tags": [
-        "inventory"
-      ]
-    },
-    {
-      "id": "dsp-to-ssp-what-service-model-is-being-deployed",
-      "origin": "DSP",
-      "destination": "SSP",
-      "text": "What service model is being deployed?",
-      "tags": [
-        "cost"
       ]
     },
     {
@@ -3435,15 +2699,6 @@
       ]
     },
     {
-      "id": "seller-to-data-provider-how-can-you-protect-against-audience-profiling-by-third-parties",
-      "origin": "Seller",
-      "destination": "Data Provider",
-      "text": "How can you protect against audience profiling by third-parties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "seller-to-data-provider-how-do-you-prevent-malware",
       "origin": "Seller",
       "destination": "Data Provider",
@@ -3454,49 +2709,12 @@
       ]
     },
     {
-      "id": "seller-to-data-provider-how-is-the-advertiser-converting-data-to-online-data",
-      "origin": "Seller",
-      "destination": "Data Provider",
-      "text": "How is the advertiser converting data to online data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-data-provider-how-is-the-advertiser-converting-offline-data-to-online-data",
-      "origin": "Seller",
-      "destination": "Data Provider",
-      "text": "How is the advertiser converting offline data to online data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "seller-to-data-provider-how-unique-is-the-data-is-it-being-bid-on-by-many-buyers-pushing-up-the-auction-price",
       "origin": "Seller",
       "destination": "Data Provider",
       "text": "How unique is the data? Is it being bid on by many buyers pushing up the auction price?",
       "tags": [
         "cost",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-data-provider-is-this-data-collected-in-a-gdpr-compliant-way",
-      "origin": "Seller",
-      "destination": "Data Provider",
-      "text": "Is this data collected in a GDPR compliant way?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-data-provider-what-are-the-sources-of-the-data-you-are-providing",
-      "origin": "Seller",
-      "destination": "Data Provider",
-      "text": "What are the sources of the data you are providing?",
-      "tags": [
         "data"
       ]
     },
@@ -3617,160 +2835,6 @@
       "origin": "Seller",
       "destination": "Header Bidding Provider",
       "text": "Which ID providers do you support?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-can-you-explain-how-the-solution-works-technically-or-provide-a-flow-diagram",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Can you explain how the solution works technically or provide a flow diagram?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-can-you-list-the-consent-frameworks-your-id-solution-is-integrated-or-compatible-with",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Can you list the consent frameworks your ID solution is integrated or compatible with?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Can you provide a list of publishers integrated with a first-party addressability solution?",
-      "tags": [
-        "identity",
-        "inventory"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-is-the-creation-of-your-id-dependent-on-users-providing-personally-identifiable-information-pii-email-phone-number-address-etc",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Is the creation of your ID dependent on users providing personally identifiable information (PII)? (email, phone number, address, etc.)",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-is-the-id-present-in-ctv-supply-if-yes",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Is the ID present in CTV supply? If yes:",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-is-the-id-user-level",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Is the ID user-level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "What current SSP integrations do you have, by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-what-dsp-integrations-are-there",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "What DSP integrations are there?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-what-is-the-availability-and-scale-by-country",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "What is the availability and scale by country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "What is the timeline of future SSP integrations by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "seller-to-identity-provider-with-what-ssps",
-      "origin": "Seller",
-      "destination": "Identity Provider",
-      "text": "With what SSPs?",
       "tags": [
         "data"
       ]
@@ -4128,43 +3192,6 @@
       ]
     },
     {
-      "id": "ssp-to-data-provider-how-can-you-protect-against-audience-profiling-by-third-parties",
-      "origin": "SSP",
-      "destination": "Data Provider",
-      "text": "How can you protect against audience profiling by third-parties?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-data-provider-how-is-the-advertiser-converting-offline-data-to-online-data",
-      "origin": "SSP",
-      "destination": "Data Provider",
-      "text": "How is the advertiser converting offline data to online data?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-data-provider-is-this-data-collected-in-a-gdpr-compliant-way",
-      "origin": "SSP",
-      "destination": "Data Provider",
-      "text": "Is this data collected in a GDPR compliant way?",
-      "tags": [
-        "gdpr",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-data-provider-what-are-the-sources-of-the-data-you-are-providing",
-      "origin": "SSP",
-      "destination": "Data Provider",
-      "text": "What are the sources of the data you are providing?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "ssp-to-dsp-are-fees-correlated-with-volume-or-price-or-both",
       "origin": "SSP",
       "destination": "DSP",
@@ -4429,182 +3456,10 @@
       ]
     },
     {
-      "id": "ssp-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-can-you-explain-how-the-solution-works-technically-or-provide-a-flow-diagram",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Can you explain how the solution works technically or provide a flow diagram?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-can-you-list-the-consent-frameworks-your-id-solution-is-integrated-or-compatible-with",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Can you list the consent frameworks your ID solution is integrated or compatible with?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Can you provide a list of publishers integrated with a first-party addressability solution?",
-      "tags": [
-        "identity",
-        "inventory"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?",
-      "tags": [
-        "consent",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-is-the-creation-of-your-id-dependent-on-users-providing-personally-identifiable-information-pii-email-phone-number-address-etc",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Is the creation of your ID dependent on users providing personally identifiable information (PII)? (email, phone number, address, etc.)",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-is-the-id-present-in-ctv-supply-if-yes",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Is the ID present in CTV supply? If yes:",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-is-the-id-user-level",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Is the ID user-level?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-are-the-differentiators-of-the-id-compared-to-others-in-the-marketplace",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What are the differentiators of the ID compared to others in the marketplace?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
       "id": "ssp-to-identity-provider-what-are-the-primary-benefits-of-the-id",
       "origin": "SSP",
       "destination": "Identity Provider",
       "text": "What are the primary benefits of the ID?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What current SSP integrations do you have, by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-dsp-integrations-are-there",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What DSP integrations are there?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-is-the-availability-and-scale-by-country",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What is the availability and scale by country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-is-the-id-s-value-proposition-statement",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What is the ID’s value proposition statement?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "What is the timeline of future SSP integrations by region and country?",
-      "tags": [
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?",
-      "tags": [
-        "identity",
-        "data"
-      ]
-    },
-    {
-      "id": "ssp-to-identity-provider-with-what-ssps",
-      "origin": "SSP",
-      "destination": "Identity Provider",
-      "text": "With what SSPs?",
       "tags": [
         "data"
       ]

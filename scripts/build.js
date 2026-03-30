@@ -96,7 +96,7 @@ function validateAgainstSchema(edge, filePath) {
   assert(typeof edge.id === "string" && /^[a-z0-9-]+$/.test(edge.id), `${filePath}: invalid edge id`);
   assert(typeof edge.origin === "string" && edge.origin.length > 0, `${filePath}: missing origin`);
   assert(typeof edge.destination === "string" && edge.destination.length > 0, `${filePath}: missing destination`);
-  assert(Array.isArray(edge.questions) && edge.questions.length > 0, `${filePath}: questions must be a non-empty array`);
+  assert(Array.isArray(edge.questions), `${filePath}: questions must be an array`);
 
   const questionIds = new Set();
   for (const question of edge.questions) {

@@ -1,0 +1,49 @@
+id: any-stakeholder-to-identity-provider
+origin: "Any Stakeholder"
+destination: "Identity Provider"
+questions:
+  - id: any-stakeholder-to-identity-provider-what-is-the-availability-and-scale-of-the-identifier-by-country-or-region
+    text: "What is the availability and scale of the identifier by country or region?"
+    tags: ["identity"]
+  - id: any-stakeholder-to-identity-provider-what-current-ssp-integrations-do-you-have-by-region-and-country
+    text: "What current SSP integrations do you have, by region and country?"
+    tags: ["data"]
+  - id: any-stakeholder-to-identity-provider-what-is-the-timeline-of-future-ssp-integrations-by-region-and-country
+    text: "What is the timeline of future SSP integrations by region and country?"
+    tags: ["data"]
+  - id: any-stakeholder-to-identity-provider-what-dsp-integrations-are-there
+    text: "What DSP integrations are there?"
+    tags: ["data"]
+  - id: any-stakeholder-to-identity-provider-can-you-provide-a-list-of-publishers-integrated-with-a-first-party-addressability-solution
+    text: "Can you provide a list of publishers integrated with a first-party addressability solution?"
+    tags: ["identity","inventory"]
+  - id: any-stakeholder-to-identity-provider-can-you-confirm-monthly-active-addressable-users-seen-in-safari-firefox-and-edge
+    text: "Can you confirm monthly active addressable users seen in Safari, Firefox and Edge?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-identity-provider-is-the-creation-of-identifiers-dependent-on-users-providing-personally-identifiable-information-pii
+    text: "Is the creation of identifiers dependent on users providing personally identifiable information (PII)?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-identity-provider-does-your-company-tie-consumer-preferences-opt-in-opt-out-to-your-id-or-is-the-recording-of-these-preferences-dependent-on-legacy-identifiers-such-as-third-party-cookies
+    text: "Does your company tie consumer preferences (opt-in/opt-out) to your ID, or is the recording of these preferences dependent on legacy identifiers (such as third-party cookies)?"
+    tags: ["consent","data"]
+  - id: any-stakeholder-to-identity-provider-which-consent-frameworks-is-the-identifier-integrated-with-or-compatible-with
+    text: "Which consent frameworks is the identifier integrated with or compatible with?"
+    tags: ["consent","identity"]
+  - id: any-stakeholder-to-identity-provider-can-the-technical-functioning-of-the-solution-be-explained-or-documented-e-g-via-flow-diagram
+    text: "Can the technical functioning of the solution be explained or documented (e.g. via flow diagram)?"
+    tags: ["identity"]
+  - id: any-stakeholder-to-identity-provider-is-the-identifier-constructed-at-user-level
+    text: "Is the identifier constructed at user level?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-identity-provider-does-the-id-provide-addressability-in-cookie-restricted-browsers-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "Does the ID provide addressability in cookie-restricted browsers? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-identity-provider-will-the-id-provide-addressability-in-ios-apps-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "Will the ID provide addressability in iOS apps? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-identity-provider-is-the-identifier-present-within-connected-tv-ctv-supply
+    text: "Is the identifier present within Connected TV (CTV) supply?"
+    tags: ["identity"]
+  - id: any-stakeholder-to-identity-provider-how-is-the-id-able-to-associate-ctv-devices-to-users-and-what-is-the-step-by-step-workflow-for-propagating-the-identifier
+    text: "How is the ID able to associate CTV devices to users? And what is the step-by-step workflow for propagating the identifier?"
+    tags: ["identity","data"]

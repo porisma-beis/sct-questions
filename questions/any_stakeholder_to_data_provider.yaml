@@ -11,3 +11,48 @@ questions:
   - id: any-stakeholder-to-data-provider-how-is-this-data-refreshed-corrected-or-removed-when-it-changes
     text: "How is this data refreshed, corrected, or removed when it changes?"
     tags: ["data","measurement"]
+  - id: any-stakeholder-to-data-provider-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
+    text: "How am I being charged for this data, independently to media or is it bundled with media?"
+    tags: ["cost","data"]
+  - id: any-stakeholder-to-data-provider-is-this-first-second-or-third-party-data
+    text: "Is this first-, second-, or third-party data?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-how-do-i-know-the-data-i-request-is-what-i-am-getting
+    text: "How do I know the data I request is what I am getting?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-is-the-data-publisher-data-or-independently-sourced
+    text: "Is the data publisher data or independently sourced?"
+    tags: ["inventory","data"]
+  - id: any-stakeholder-to-data-provider-if-independently-sourced-what-are-the-original-sources
+    text: "If independently sourced, what are the original sources?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits
+    text: "Is it local market data (e.g. regional relevance, local culture, consumption habits)?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-what-is-the-age-of-the-data
+    text: "What is the age of the data?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-is-the-data-modelled-and-if-so-what-modelling-has-been-applied
+    text: "Is the data modelled, and if so, what modelling has been applied?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic
+    text: "Can the data be applied cross-device? If so, is this deterministic or probabilistic?"
+    tags: ["identity","data"]
+  - id: any-stakeholder-to-data-provider-how-is-offline-data-converted-or-onboarded-into-online-environments
+    text: "How is offline data converted or onboarded into online environments?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-how-can-you-protect-against-audience-profiling-by-third-parties
+    text: "How can you protect against audience profiling by third-parties?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-what-is-the-audience-match-rate-and-can-it-be-improved
+    text: "What is the audience match rate, and can it be improved?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-what-are-the-sources-of-the-data-being-provided
+    text: "What are the sources of the data being provided?"
+    tags: ["data"]
+  - id: any-stakeholder-to-data-provider-is-this-data-collected-in-a-gdpr-compliant-way
+    text: "Is this data collected in a GDPR-compliant way?"
+    tags: ["gdpr","data"]
+  - id: any-stakeholder-to-data-provider-how-is-the-advertiser-converting-offline-data-to-online-data
+    text: "How is the advertiser converting offline data to online data?"
+    tags: ["data"]

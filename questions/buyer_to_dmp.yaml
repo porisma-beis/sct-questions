@@ -17,45 +17,12 @@ questions:
   - id: buyer-to-dmp-are-you-passing-iab-europe-transparency-and-consent-framework-consent-signals-with-the-data
     text: "Are you passing IAB Europe Transparency & Consent Framework consent signals with the data?"
     tags: ["consent","data"]
-  - id: buyer-to-dmp-how-am-i-being-charged-for-this-data-independently-to-media-or-is-it-bundled-with-media
-    text: "How am I being charged for this data, independently to media or is it bundled with media?"
-    tags: ["cost","data"]
-  - id: buyer-to-dmp-is-this-first-second-or-third-party-data
-    text: "Is this first, second or third-party data?"
-    tags: ["data"]
-  - id: buyer-to-dmp-is-the-data-declared-i-e-given-by-the-user-observed-i-e-based-on-user-behaviour-or-modelled-i-e-extrapolated-from-declared-or-observed-if-extrapolated-then-what-size-was-the-base-group
-    text: "Is the data declared (i.e. given by the user), observed (i.e. based on user behaviour) or modelled (i.e. extrapolated from declared or observed, if extrapolated then what size was the base group)?"
-    tags: ["data"]
-  - id: buyer-to-dmp-how-do-i-know-the-data-i-request-is-what-i-am-getting
-    text: "How do I know the data I request is what I am getting?"
-    tags: ["data"]
-  - id: buyer-to-dmp-is-the-data-publisher-data-or-independently-sourced
-    text: "Is the data publisher data or independently sourced?"
-    tags: ["inventory","data"]
-  - id: buyer-to-dmp-if-independently-sourced-where-was-the-data-sourced
-    text: "If independently sourced, where was the data sourced?"
-    tags: ["data"]
-  - id: buyer-to-dmp-is-it-local-market-data-e-g-regional-relevance-local-culture-consumption-habits
-    text: "Is it local market data (e.g. regional relevance, local culture, consumption habits)?"
-    tags: ["data"]
-  - id: buyer-to-dmp-how-old-is-the-data
-    text: "How old is the data?"
-    tags: ["data"]
   - id: buyer-to-dmp-how-often-is-the-data-updated
     text: "How often is the data updated?"
     tags: ["data"]
   - id: buyer-to-dmp-is-there-any-data-cleaning-process-in-place-e-g-if-a-cookie-id-is-not-part-of-a-segment-how-fast-will-it-be-removed-for-example-a-customer-buys-a-product-already
     text: "Is there any data cleaning process in place e.g. if a cookie/ID is not part of a segment, how fast will it be removed (for example, a customer buys a product already)?"
     tags: ["data"]
-  - id: buyer-to-dmp-how-has-the-offline-data-been-onboarded-online
-    text: "How has the offline data been onboarded online?"
-    tags: ["data"]
-  - id: buyer-to-dmp-is-the-data-modelled-and-if-so-what-modelling-has-been-applied
-    text: "Is the data modelled & if so, what modelling has been applied?"
-    tags: ["data"]
-  - id: buyer-to-dmp-can-the-data-be-applied-cross-device-if-so-is-this-deterministic-or-probabilistic
-    text: "Can the data be applied cross-device? If so, is this deterministic or probabilistic?"
-    tags: ["identity","data"]
   - id: buyer-to-dmp-do-you-directly-sell-data-as-a-revenue-stream-or-do-you-simply-enable-the-sale-of-data-between-buyers-and-sellers
     text: "Do you directly sell data as a revenue stream or do you simply enable the sale of data between buyers and sellers?"
     tags: ["cost","data"]

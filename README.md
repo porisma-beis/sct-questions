@@ -23,6 +23,8 @@ questions:
     tags: ["gdpr", "consent"]
 ```
 
+An edge file may also intentionally keep `questions: []` when the edge should remain visible in the graph but its shared questions are defined under `origin: "Any Stakeholder"` for the same destination.
+
 ## Question Assignment Rules
 
 These rules define how to assign questions to stakeholder nodes in this repository.
@@ -35,13 +37,13 @@ If that is unclear, rewrite the question.
 
 2. Use “Any Stakeholder” when the asker doesn’t matter
 
-If a question could reasonably be asked by multiple stakeholders, set
-`origin: Any Stakeholder`. Do not duplicate the same question across multiple origin nodes.
+Use a specific origin only when the wording or intent of the question genuinely depends on who is asking.
+If the same question would be asked the same way by multiple stakeholders, set `origin: Any Stakeholder` and keep only one copy.
 
-3. Specify origin only when it adds meaning
+3. Keep graph edges separate from question ownership
 
-Use a specific origin (e.g. Buyer → DSP) only if the question is genuinely role-dependent.
-If the question reads the same regardless of who is asking, set `origin: Any Stakeholder`.
+If an origin → destination relationship should still appear in the graph, keep that edge file even when all shared questions for that destination live under `origin: Any Stakeholder`.
+In that case, the edge-specific file may keep `questions: []`.
 
 4. Duplicate questions across destinations when needed
 
@@ -59,7 +61,8 @@ If not, reassign or rewrite.
 2. Keep `id`, `origin`, and `destination` unchanged unless you are creating a new edge.
 3. Add or edit `questions` entries using quoted strings for `text`.
 4. Keep `tags` to 1-3 lowercase values.
-5. Run `npm run build` and commit the updated `dist/questions.json`.
+5. It is valid for `questions` to be empty when the edge is intentionally covered by `Any Stakeholder` questions for the same destination.
+6. Run `npm run build` and commit the updated `dist/questions.json`.
 
 ## Tagging Guidance
 
