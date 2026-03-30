@@ -66,6 +66,11 @@
       "destination": "Identity Provider"
     },
     {
+      "id": "any-stakeholder-to-measurement-provider",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider"
+    },
+    {
       "id": "buyer-to-curator",
       "origin": "Buyer",
       "destination": "Curator"
@@ -732,6 +737,144 @@
       ]
     },
     {
+      "id": "any-stakeholder-to-measurement-provider-can-you-provide-log-level-or-impression-level-data-for-independent-validation",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "Can you provide log-level or impression-level data for independent validation?",
+      "tags": [
+        "attention",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-does-your-measurement-approach-require-personal-data-or-user-identification-and-how-is-this-handled-under-gdpr",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "Does your measurement approach require personal data or user identification, and how is this handled under GDPR?",
+      "tags": [
+        "attention",
+        "gdpr",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-how-do-you-distinguish-between-passive-exposure-and-meaningful-attention",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "How do you distinguish between passive exposure and meaningful attention?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-how-do-you-ensure-compliance-with-user-consent-frameworks-e-g-tcf-when-collecting-attention-signals",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "How do you ensure compliance with user consent frameworks (e.g. TCF) when collecting attention signals?",
+      "tags": [
+        "attention",
+        "consent",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-how-do-you-validate-the-accuracy-of-your-attention-model-against-real-world-outcomes-or-observed-behavioural-data",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "How do you validate the accuracy of your attention model against real-world outcomes or observed behavioural data?",
+      "tags": [
+        "attention",
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-how-do-your-metrics-align-with-emerging-industry-standards-e-g-iab-mrc-attention-guidelines",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "How do your metrics align with emerging industry standards (e.g. IAB/MRC attention guidelines)?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-is-your-measurement-approach-independently-audited-or-accredited-if-so-by-whom",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "Is your measurement approach independently audited or accredited? If so, by whom?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-is-your-solution-cookieless-and-how-does-it-operate-in-privacy-restricted-environments-e-g-safari-ctv",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "Is your solution cookieless, and how does it operate in privacy-restricted environments (e.g. Safari, CTV)?",
+      "tags": [
+        "attention",
+        "identity",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-to-what-extent-does-your-methodology-rely-on-panel-based-data-and-how-representative-is-that-panel",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "To what extent does your methodology rely on panel-based data, and how representative is that panel?",
+      "tags": [
+        "attention",
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-what-core-attention-metrics-do-you-provide-e-g-attentive-seconds-attention-index-likelihood-scores-and-how-are-they-defined",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "What core attention metrics do you provide (e.g. attentive seconds, attention index, likelihood scores), and how are they defined?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-what-level-of-transparency-do-you-provide-into-your-modelling-assumptions-training-data-and-weighting-of-signals",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "What level of transparency do you provide into your modelling assumptions, training data, and weighting of signals?",
+      "tags": [
+        "attention",
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-what-methodology-do-you-use-to-measure-attention-deterministic-probabilistic-or-hybrid-and-how-do-you-differentiate-between-observed-and-modelled-signals",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "What methodology do you use to measure attention (deterministic, probabilistic, or hybrid), and how do you differentiate between observed and modelled signals?",
+      "tags": [
+        "attention",
+        "measurement",
+        "data"
+      ]
+    },
+    {
+      "id": "any-stakeholder-to-measurement-provider-what-specific-signals-e-g-time-in-view-scroll-velocity-audibility-gaze-data-are-used-to-calculate-your-attention-metrics",
+      "origin": "Any Stakeholder",
+      "destination": "Measurement Provider",
+      "text": "What specific signals (e.g. time-in-view, scroll velocity, audibility, gaze data) are used to calculate your attention metrics?",
+      "tags": [
+        "attention",
+        "measurement",
+        "data"
+      ]
+    },
+    {
       "id": "buyer-to-curator-do-you-support-cookieless-signals-contextual-classification-or-clean-room-integrations",
       "origin": "Buyer",
       "destination": "Curator",
@@ -1136,6 +1279,16 @@
       ]
     },
     {
+      "id": "buyer-to-measurement-provider-can-your-attention-signals-be-used-for-pre-bid-optimisation-post-campaign-analysis-or-both",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Can your attention signals be used for pre-bid optimisation, post-campaign analysis, or both?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
       "id": "buyer-to-measurement-provider-do-you-provide-any-data-level-spo-diagnostics-e-g-which-data-segments-contribute-most-to-objectives",
       "origin": "Buyer",
       "destination": "Measurement Provider",
@@ -1147,11 +1300,52 @@
       ]
     },
     {
+      "id": "buyer-to-measurement-provider-do-you-provide-guidance-on-optimal-attention-thresholds-for-different-campaign-objectives-e-g-awareness-vs-conversion",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Do you provide guidance on optimal attention thresholds for different campaign objectives (e.g. awareness vs conversion)?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-do-you-support-real-time-optimisation-based-on-attention-signals-if-so-what-is-the-latency",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "Do you support real-time optimisation based on attention signals? If so, what is the latency?",
+      "tags": [
+        "attention",
+        "measurement"
+      ]
+    },
+    {
       "id": "buyer-to-measurement-provider-how-are-discrepancies-between-platforms-managed",
       "origin": "Buyer",
       "destination": "Measurement Provider",
       "text": "How are discrepancies between platforms managed?",
       "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-how-can-attention-data-be-integrated-into-media-planning-buying-platforms-or-dsp-workflows",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "How can attention data be integrated into media planning, buying platforms, or DSP workflows?",
+      "tags": [
+        "attention",
+        "measurement",
+        "spo"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-how-does-your-attention-measurement-correlate-with-business-outcomes-such-as-conversions-brand-lift-or-recall",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "How does your attention measurement correlate with business outcomes such as conversions, brand lift, or recall?",
+      "tags": [
+        "attention",
         "measurement"
       ]
     },
@@ -1203,12 +1397,33 @@
       ]
     },
     {
+      "id": "buyer-to-measurement-provider-what-evidence-do-you-have-demonstrating-that-optimising-for-attention-improves-campaign-performance-or-efficiency",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What evidence do you have demonstrating that optimising for attention improves campaign performance or efficiency?",
+      "tags": [
+        "attention",
+        "measurement",
+        "cost"
+      ]
+    },
+    {
       "id": "buyer-to-measurement-provider-what-fraud-detection-tools-are-utilised",
       "origin": "Buyer",
       "destination": "Measurement Provider",
       "text": "What fraud detection tools are utilised?",
       "tags": [
         "fraud"
+      ]
+    },
+    {
+      "id": "buyer-to-measurement-provider-what-is-the-pricing-model-for-your-attention-measurement-solution-e-g-cpm-uplift-saas-licensing",
+      "origin": "Buyer",
+      "destination": "Measurement Provider",
+      "text": "What is the pricing model for your attention measurement solution (e.g. CPM uplift, SaaS, licensing)?",
+      "tags": [
+        "attention",
+        "cost"
       ]
     },
     {
@@ -2840,6 +3055,17 @@
       ]
     },
     {
+      "id": "seller-to-measurement-provider-can-your-attention-metrics-be-normalised-or-compared-across-publishers-formats-and-channels",
+      "origin": "Seller",
+      "destination": "Measurement Provider",
+      "text": "Can your attention metrics be normalised or compared across publishers, formats, and channels?",
+      "tags": [
+        "attention",
+        "measurement",
+        "inventory"
+      ]
+    },
+    {
       "id": "seller-to-measurement-provider-how-can-we-understand-a-buyer-s-measurement-requirements",
       "origin": "Seller",
       "destination": "Measurement Provider",
@@ -2857,6 +3083,38 @@
       "tags": [
         "measurement",
         "inventory"
+      ]
+    },
+    {
+      "id": "seller-to-measurement-provider-how-do-you-account-for-differences-between-environments-open-web-vs-closed-platforms-in-your-measurement-approach",
+      "origin": "Seller",
+      "destination": "Measurement Provider",
+      "text": "How do you account for differences between environments (open web vs closed platforms) in your measurement approach?",
+      "tags": [
+        "attention",
+        "measurement",
+        "inventory"
+      ]
+    },
+    {
+      "id": "seller-to-measurement-provider-how-scalable-is-your-solution-across-different-markets-formats-and-inventory-types",
+      "origin": "Seller",
+      "destination": "Measurement Provider",
+      "text": "How scalable is your solution across different markets, formats, and inventory types?",
+      "tags": [
+        "attention",
+        "inventory"
+      ]
+    },
+    {
+      "id": "seller-to-measurement-provider-what-additional-operational-overhead-e-g-tagging-sdk-integration-is-required-to-deploy-your-solution",
+      "origin": "Seller",
+      "destination": "Measurement Provider",
+      "text": "What additional operational overhead (e.g. tagging, SDK integration) is required to deploy your solution?",
+      "tags": [
+        "attention",
+        "measurement",
+        "cost"
       ]
     },
     {

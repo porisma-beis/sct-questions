@@ -75,6 +75,7 @@ Use simple, reusable tags. Preferred examples include:
 - `sellers-json`
 - `fraud`
 - `spo`
+- `attention`
 - `carbon`
 - `cost`
 - `inventory`

@@ -62,3 +62,24 @@ questions:
   - id: buyer-to-measurement-provider-are-mfa-sites-invalid-traffic-or-fraudulent-resellers-actively-scanned-and-mitigated
     text: "Are MFA sites, invalid traffic, or fraudulent resellers actively scanned and mitigated?"
     tags: ["fraud","inventory"]
+  - id: buyer-to-measurement-provider-how-does-your-attention-measurement-correlate-with-business-outcomes-such-as-conversions-brand-lift-or-recall
+    text: "How does your attention measurement correlate with business outcomes such as conversions, brand lift, or recall?"
+    tags: ["attention","measurement"]
+  - id: buyer-to-measurement-provider-what-evidence-do-you-have-demonstrating-that-optimising-for-attention-improves-campaign-performance-or-efficiency
+    text: "What evidence do you have demonstrating that optimising for attention improves campaign performance or efficiency?"
+    tags: ["attention","measurement","cost"]
+  - id: buyer-to-measurement-provider-do-you-provide-guidance-on-optimal-attention-thresholds-for-different-campaign-objectives-e-g-awareness-vs-conversion
+    text: "Do you provide guidance on optimal attention thresholds for different campaign objectives (e.g. awareness vs conversion)?"
+    tags: ["attention","measurement"]
+  - id: buyer-to-measurement-provider-can-your-attention-signals-be-used-for-pre-bid-optimisation-post-campaign-analysis-or-both
+    text: "Can your attention signals be used for pre-bid optimisation, post-campaign analysis, or both?"
+    tags: ["attention","measurement"]
+  - id: buyer-to-measurement-provider-how-can-attention-data-be-integrated-into-media-planning-buying-platforms-or-dsp-workflows
+    text: "How can attention data be integrated into media planning, buying platforms, or DSP workflows?"
+    tags: ["attention","measurement","spo"]
+  - id: buyer-to-measurement-provider-do-you-support-real-time-optimisation-based-on-attention-signals-if-so-what-is-the-latency
+    text: "Do you support real-time optimisation based on attention signals? If so, what is the latency?"
+    tags: ["attention","measurement"]
+  - id: buyer-to-measurement-provider-what-is-the-pricing-model-for-your-attention-measurement-solution-e-g-cpm-uplift-saas-licensing
+    text: "What is the pricing model for your attention measurement solution (e.g. CPM uplift, SaaS, licensing)?"
+    tags: ["attention","cost"]

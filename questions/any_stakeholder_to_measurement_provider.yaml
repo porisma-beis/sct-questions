@@ -1,0 +1,43 @@
+id: any-stakeholder-to-measurement-provider
+origin: "Any Stakeholder"
+destination: "Measurement Provider"
+questions:
+  - id: any-stakeholder-to-measurement-provider-what-methodology-do-you-use-to-measure-attention-deterministic-probabilistic-or-hybrid-and-how-do-you-differentiate-between-observed-and-modelled-signals
+    text: "What methodology do you use to measure attention (deterministic, probabilistic, or hybrid), and how do you differentiate between observed and modelled signals?"
+    tags: ["attention","measurement","data"]
+  - id: any-stakeholder-to-measurement-provider-what-specific-signals-e-g-time-in-view-scroll-velocity-audibility-gaze-data-are-used-to-calculate-your-attention-metrics
+    text: "What specific signals (e.g. time-in-view, scroll velocity, audibility, gaze data) are used to calculate your attention metrics?"
+    tags: ["attention","measurement","data"]
+  - id: any-stakeholder-to-measurement-provider-how-do-you-validate-the-accuracy-of-your-attention-model-against-real-world-outcomes-or-observed-behavioural-data
+    text: "How do you validate the accuracy of your attention model against real-world outcomes or observed behavioural data?"
+    tags: ["attention","measurement","data"]
+  - id: any-stakeholder-to-measurement-provider-to-what-extent-does-your-methodology-rely-on-panel-based-data-and-how-representative-is-that-panel
+    text: "To what extent does your methodology rely on panel-based data, and how representative is that panel?"
+    tags: ["attention","measurement","data"]
+  - id: any-stakeholder-to-measurement-provider-what-core-attention-metrics-do-you-provide-e-g-attentive-seconds-attention-index-likelihood-scores-and-how-are-they-defined
+    text: "What core attention metrics do you provide (e.g. attentive seconds, attention index, likelihood scores), and how are they defined?"
+    tags: ["attention","measurement"]
+  - id: any-stakeholder-to-measurement-provider-how-do-your-metrics-align-with-emerging-industry-standards-e-g-iab-mrc-attention-guidelines
+    text: "How do your metrics align with emerging industry standards (e.g. IAB/MRC attention guidelines)?"
+    tags: ["attention","measurement"]
+  - id: any-stakeholder-to-measurement-provider-how-do-you-distinguish-between-passive-exposure-and-meaningful-attention
+    text: "How do you distinguish between passive exposure and meaningful attention?"
+    tags: ["attention","measurement"]
+  - id: any-stakeholder-to-measurement-provider-what-level-of-transparency-do-you-provide-into-your-modelling-assumptions-training-data-and-weighting-of-signals
+    text: "What level of transparency do you provide into your modelling assumptions, training data, and weighting of signals?"
+    tags: ["attention","measurement","data"]
+  - id: any-stakeholder-to-measurement-provider-is-your-measurement-approach-independently-audited-or-accredited-if-so-by-whom
+    text: "Is your measurement approach independently audited or accredited? If so, by whom?"
+    tags: ["attention","measurement"]
+  - id: any-stakeholder-to-measurement-provider-can-you-provide-log-level-or-impression-level-data-for-independent-validation
+    text: "Can you provide log-level or impression-level data for independent validation?"
+    tags: ["attention","data"]
+  - id: any-stakeholder-to-measurement-provider-does-your-measurement-approach-require-personal-data-or-user-identification-and-how-is-this-handled-under-gdpr
+    text: "Does your measurement approach require personal data or user identification, and how is this handled under GDPR?"
+    tags: ["attention","gdpr","data"]
+  - id: any-stakeholder-to-measurement-provider-how-do-you-ensure-compliance-with-user-consent-frameworks-e-g-tcf-when-collecting-attention-signals
+    text: "How do you ensure compliance with user consent frameworks (e.g. TCF) when collecting attention signals?"
+    tags: ["attention","consent","data"]
+  - id: any-stakeholder-to-measurement-provider-is-your-solution-cookieless-and-how-does-it-operate-in-privacy-restricted-environments-e-g-safari-ctv
+    text: "Is your solution cookieless, and how does it operate in privacy-restricted environments (e.g. Safari, CTV)?"
+    tags: ["attention","identity","data"]

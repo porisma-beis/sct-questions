@@ -8,3 +8,15 @@ questions:
   - id: seller-to-measurement-provider-how-can-we-understand-our-inventory-s-classifications
     text: "How can we understand our inventory’s classifications?"
     tags: ["measurement","inventory"]
+  - id: seller-to-measurement-provider-how-do-you-account-for-differences-between-environments-open-web-vs-closed-platforms-in-your-measurement-approach
+    text: "How do you account for differences between environments (open web vs closed platforms) in your measurement approach?"
+    tags: ["attention","measurement","inventory"]
+  - id: seller-to-measurement-provider-can-your-attention-metrics-be-normalised-or-compared-across-publishers-formats-and-channels
+    text: "Can your attention metrics be normalised or compared across publishers, formats, and channels?"
+    tags: ["attention","measurement","inventory"]
+  - id: seller-to-measurement-provider-what-additional-operational-overhead-e-g-tagging-sdk-integration-is-required-to-deploy-your-solution
+    text: "What additional operational overhead (e.g. tagging, SDK integration) is required to deploy your solution?"
+    tags: ["attention","measurement","cost"]
+  - id: seller-to-measurement-provider-how-scalable-is-your-solution-across-different-markets-formats-and-inventory-types
+    text: "How scalable is your solution across different markets, formats, and inventory types?"
+    tags: ["attention","inventory"]
